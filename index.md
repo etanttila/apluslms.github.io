@@ -1,12 +1,7 @@
-## A-plus LMS
-
-A-plus is a service oriented and extendable Learning Management System
-that utilizes external services and API to provide unlimited
+A-plus is interoperable and extendable Learning Management System
+that utilizes different services and API to provide unlimited
 selection of interactive e-learning material types. Today, several
-web services and build tools are included in the wider A+ software
-family.
-
-![A-plus](apluslogo.png)
+web services and build tools are included in the A+ software family.
 
 ### Resources
 

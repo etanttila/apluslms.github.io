@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+  background-color: #eee;
+  background-image:
+    url(../images/apluslogo.png),
+    linear-gradient(120deg, #155799, #159957);
+  background-repeat: no-repeat;
+  background-position: 0;
+  padding: 1rem;
+}
