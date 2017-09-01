@@ -6,6 +6,8 @@ selection of interactive e-learning material types. Today, several
 web services and build tools are included in the wider A+ software
 family.
 
+![A-plus](apluslogo.png)
+
 ### Resources
 
 * [Start a new course from template](https://github.com/A-plus-LMS/course-templates)
