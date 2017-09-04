@@ -46,7 +46,7 @@ The mooc-grader includes a gitmanager module that offers a web
 interface to add new courses directly from Git repositories.
 
 * Software: <https://github.com/Aalto-LeTech/mooc-grader>
-* Conf.reference: <https://github.com/Aalto-LeTech/mooc-grader/blob/master/courses/README.md>
+* Configuration reference: <https://github.com/Aalto-LeTech/mooc-grader/blob/master/courses/README.md>
 
 
 ## Schematics
