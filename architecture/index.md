@@ -20,8 +20,8 @@ from external services via HTTP. Also submissions are posted
 to external services that respond with feedback content.
 
 * Software: <https://github.com/Aalto-LeTech/a-plus>
-* Protocol: <https://github.com/Aalto-LeTech/a-plus/blob/master/doc/GRADERS.md>
-* Markup: <https://github.com/Aalto-LeTech/a-plus/blob/master/doc/CONTENT.md>
+* Protocol description: <https://github.com/Aalto-LeTech/a-plus/blob/master/doc/GRADERS.md>
+* Markup reference: <https://github.com/Aalto-LeTech/a-plus/blob/master/doc/CONTENT.md>
 
 In addition to standard A-plus front, a Moodle-plugin exists that
 can connect A-plus learning materials as Moodle activities.
