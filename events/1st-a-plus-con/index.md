@@ -15,9 +15,9 @@
 ### On Automatic Assessment
 
 * SQL-tehtävät / Riku Ala-Laurinaho
-* Relaatioalgebratehtävät / Kerttu Pollari-Malmi
+* [Relaatioalgebratehtävät / Kerttu Pollari-Malmi, FIN](relaatioalgebra.pdf)
 * Tehtävien kehittäminen TRAK-kurssille / Markus Arlander
-* A+ Active Element / Roosa Piitulainen
+* [A+ Active Element / Roosa Piitulainen, FIN](active_element.pdf)
 * Deklaratiivinen visualisointi / Teemu Pudas
 * [Point-and-Click ja Drag-and-Drop -tehtävät / Markku Riekkinen, FIN](acos-point-click-drag-drop.pdf)
 * Grader Utils / Matias Lindgren
