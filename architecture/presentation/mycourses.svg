@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200mm"
+   height="120mm"
+   viewBox="0 0 200 120"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="mycourses.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="363.32194"
+     inkscape:cy="222.57576"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1087"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-177)">
+    <rect
+       style="opacity:1;fill:#ff671f;fill-opacity:1;stroke:none;stroke-width:0.62255347;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4495"
+       width="200"
+       height="120"
+       x="0"
+       y="177" />
+    <g
+       id="g4536"
+       transform="translate(-3.3043282,0.82352018)">
+      <g
+         transform="matrix(0.52654192,0,0,0.52654192,-0.3846324,136.12575)"
+         id="g4503">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2"
+           d="m 86.270978,209.0126 -14.94032,-42.19095 h -12.72927 l -14.94105,42.19095 h 10.6036 l 2.58406,-7.4655 h 16.2361 l 2.58406,7.4655 h 10.60284 z m -16.10231,-15.88617 h -10.40629 l 5.20352,-15.0317 z"
+           style="clip-rule:evenodd;fill:#ffffff;fill-opacity:0.90338165;fill-rule:nonzero;stroke-width:0.26425168;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4"
+           d="m 114.33371,178.45058 c 0,-9.05953 -7.61412,-12.68937 -16.213772,-12.68937 -10.61964,0 -15.44688,6.89417 -15.44688,13.73062 v 0.46867 h 9.44887 c 0,-3.76564 2.65861,-5.70934 5.97417,-5.70934 2.605402,0 5.792432,1.17856 5.792432,4.55535 0,2.27154 -1.06259,3.43152 -4.411022,5.58607 -4.44543,2.86119 -5.39481,5.64732 -5.39481,10.74292 v 1.14392 h 9.336412 v -0.0761 c 0,-4.62716 1.29379,-5.13098 4.70146,-7.55036 4.21899,-2.90814 6.21314,-5.83232 6.21314,-10.20244 z m -10.85863,21.16927 h -9.392382 v 9.39238 h 9.392382 z"
+           style="clip-rule:evenodd;fill:#ffffff;fill-opacity:0.90338165;fill-rule:nonzero;stroke-width:0.26425168;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+      </g>
+      <text
+         id="text4499"
+         y="243.52303"
+         x="68.171913"
+         style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+           y="243.52303"
+           x="68.171913"
+           id="tspan4497"
+           sodipodi:role="line">MyCourses</tspan></text>
+    </g>
+  </g>
+</svg>

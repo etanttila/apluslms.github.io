@@ -5,6 +5,10 @@ services that communicate with each other. The responsibilities are
 divided using interfaces so that the different services and modules
 can be individually changed and redesigned.
 
+### Presentations
+
+You can read or use the brief [presentation slide set](/architecture/presentation/),
+that was used in Espoo twice in 2018.
 
 ### The front
 
