@@ -1,7 +1,7 @@
 
 ## The 1st A+CON
 
-2017/08/30 Otaniemi, Espoo, Finland
+2017-08-30 Otaniemi, Espoo, Finland
 
 ### On A+ Interfaces
 
