@@ -1,0 +1,24 @@
+{% assign splitted_url_parts = page.url | remove: "/index.html" | split: '/' %}
+{% assign last_index = splitted_url_parts.size | minus: 1 %}
+<nav class="page-nav">
+	<ol class="breadcrumb">
+		{% if last_index > 0 %}
+			<li><a href="{{ site.baseurl }}/">Home</a></li>
+			{% for i in (1..last_index) %}
+				{% capture current_breadcrumb_url %}{{ next_prepender }}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+				{% capture current_breadcrumb_md_url %}{{ next_prepender }}/{{ splitted_url_parts[i] }}/{% endcapture %}
+				{% capture next_prepender %}{{ next_prepender }}/{{ splitted_url_parts[i] }}{% endcapture %}
+				{% for breadcrumb_page in site.pages %}
+					{% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url	%}
+						<li {% if i == last_index %}class="active"{% endif %}>
+							{% assign breadcrumb_page_page_url = breadcrumb_page.url | remove: "index.html" %}
+							<a href="{{ site.baseurl }}{{ breadcrumb_page_page_url }}">{{ breadcrumb_page.breadcrumb | default: breadcrumb_page.title }}</a>
+						</li>
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+		{% else %}
+			<li>&nbsp;</li>
+		{% endif %}
+	</ol>
+</nav>

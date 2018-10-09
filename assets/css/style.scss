@@ -1,14 +1,162 @@
 ---
 ---
 
+// Headers
+$header-heading-color: #fff;
+$header-bg-color: #092a46;
+$header-bg-color-secondary: #2777bb;
+
+// Text
+$section-headings-color: #0b375d;
+$body-text-color: #606c71;
+$body-link-color: #1e6bb8;
+$blockquote-text-color: #819198;
+
+// Code
+$code-bg-color: #f3f6fa99;
+$code-text-color: #567482;
+
+// Borders
+$border-color: #dce6f0;
+$table-border-color: #e9ebec;
+$hr-border-color: #eff0f1;
+
 @import "{{ site.theme }}";
 
+
+// HEADER
+
 .page-header {
-  background-color: #eee;
-  background-image:
-    url(../images/apluslogo.png),
-    linear-gradient(120deg, #155799, #159957);
-  background-repeat: no-repeat;
-  background-position: 0;
   padding: 1rem;
+
+  h1 > a {
+    color: $header-heading-color;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
+// CONTENT
+.main-content {
+  @include large {
+    padding: 0.2em 6rem 2rem 6rem;
+  }
+  @include medium {
+    padding: 0.2em 4rem 2rem 4rem;
+  }
+  @include small {
+    padding: 0.2em 1rem 2rem 1rem;
+  }
+
+  // Logo as a background image
+  &:after {
+    content : "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity : 0.2;
+    background-image: url(../images/apluslogo.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 20em 20em;
+    filter: blur(2px);
+  }
+}
+
+// transparency fix
+.highlight {
+  background-color: $code-bg-color;
+}
+
+
+// NAV
+
+
+nav.page-nav {
+  display: block;
+  width: 100%;
+
+  @media print {
+    display: none;
+  }
+}
+
+.breadcrumb {
+  display: block;
+  list-style: none;
+  border: 0;
+  margin: 0;
+  padding-inline-start: 0;
+
+  > li {
+    font-size: 14px;
+    display: inline-block;
+
+    + li:before {
+      padding: 0 5px;
+      color: $section-headings-color;
+      content: "\003E"; // '>'
+    }
+  }
+
+  a {
+    color: $section-headings-color;
+    &:hover {
+      color: darken($section-headings-color, 30%);
+    }
+  }
+
+  > .active a {
+    color: #555555;
+  }
+}
+
+
+// font awesome symbols after links
+
+@media screen {
+  a:after {
+    display: inline-block;
+    color: $body-text-color;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+
+  a[href^="https://github.com"][href$="/"]:after {
+    content: "\00a0\f09b";
+    font-family: "Font Awesome 5 Brands";
+  }
+
+  a[href$=".pdf"]:after {
+    content: "\00a0\f1c1";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+  }
+
+  a[href^="mailto:"]:after {
+    content: "\00a0\f0e0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+  }
+}
+
+@media print {
+  a[href^="http"]:after {
+    content: " <" attr(href) "> ";
+    font-size: 80%;
+    font-weight: normal;
+    color: lighten($body-text-color, 30%);
+  }
 }

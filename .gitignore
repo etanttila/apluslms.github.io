@@ -1,3 +1,8 @@
 .DS_Store
 ._.DS_Store
+Gemfile.lock
+
+_site/
+.bundle/
+vendor/
 venv/
