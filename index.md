@@ -3,7 +3,7 @@
 A+ is an interoperable and extendable Learning Management System (A+ LMS, apluslms)
 that uses a combination of services to enable teachers to fully customize their
 e-learning materials and to combine different kinds of materials flexibly.
-Today, several web services and build tools are included in the A+ software family.
+Today, several web services and build tools are included in the A+ software family (see [components](components/)).
 
 A+ is extensively used at Aalto University and Tampere University of Technology.
 In Aalto, there is around 25 courses, 4,000 Aalto users, 1,000 MOOC users and 500,000 exercise submissions per year (2018).
@@ -12,8 +12,10 @@ but it works for other subjects too.
 
 ## Resources
 
-* [Start a new course from template](https://github.com/A-plus-LMS/course-templates/)
-* [System Architecture](architecture/)
+* [Start a new course from template](https://github.com/A-plus-LMS/course-templates/): dive directly in by setting up a local development environment with the docker.
+* [System Architecture](architecture/): description about the design and protocols.
+* [Components](components/): descriptions and github links for various services which are used to build an A+ LMS installation.
+* [Releases](releases/): description about the release schedule and a list of latest releases.
 
 ## Events
 
