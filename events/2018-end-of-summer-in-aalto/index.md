@@ -5,7 +5,7 @@
 
 ### On A+ and related service development
 
- * [Current roadmap](/roadmap/presentation/) / Jaakko Kantojärvi
+ * Current roadmap / Jaakko Kantojärvi (outdated, [check current version](/roadmap/presentation/))
  * A+ i18n / Emma Ahonen
  * LTI A+:ssa / Markku R.
  * [Edistysaskeleita opiskelijoiden tagaamisessa](aplus-tags.pdf) / Juho Rinta-Paavola
