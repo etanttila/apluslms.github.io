@@ -1,9 +1,8 @@
-
-## End of summer seminar in Aalto
+# End of summer seminar in Aalto
 
 2017-08-30 Otaniemi, Espoo, Finland
 
-### On A+ and related service development
+## On A+ and related service development
 
  * Current roadmap / Jaakko Kantojärvi (outdated, [check current version](/roadmap/presentation/))
  * A+ i18n / Emma Ahonen
@@ -15,7 +14,7 @@
  * Radar: A+ kurssien ohjelmointitehtävien automaattinen samanlaisuustarkistus / Matias
  * Tekstimuotoiset pisteet / Valtteri N.
 
-### On course development with A+
+## On course development with A+
 
  * Tietotekniikka sovelluksissa: uudet tehtävät ja docker-kurssisivu / Lassi
  * Tietotekniikka sovelluksissa: tehtäväkatalogi, simulink ja optimointi-tehtävät / Vesa

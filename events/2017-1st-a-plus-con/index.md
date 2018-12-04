@@ -1,9 +1,8 @@
-
-## The 1st A+CON
+# The 1st A+CON
 
 2017-08-30 Otaniemi, Espoo, Finland
 
-### On A+ Interfaces
+## On A+ Interfaces
 
 * [How to start an A+ course / Teemu Lehtinen](how-to-start-an-a-plus-course.pdf)
 * [Astra liitos Moodleen / Markku Riekkinen, FIN](Astra-plugin.pdf)
@@ -12,7 +11,7 @@
 * Materiaaliyhteistyötä yli yliopistorajojen / Essi Isohanni
 * GitLab CI ja A+ / Jukka-Pekka Venttola
 
-### On Automatic Assessment
+## On Automatic Assessment
 
 * SQL-tehtävät / Riku Ala-Laurinaho
 * [Relaatioalgebratehtävät / Kerttu Pollari-Malmi, FIN](relaatioalgebra.pdf)
