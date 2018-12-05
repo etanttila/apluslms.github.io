@@ -29,7 +29,7 @@ The [release schedule](/releases/#release-schedule) applies to these.
 
   Currently, this service also handles course building and configuration for itself and A+ portal.
 
-* [a-plus-rst-tools](https://github.com/aalto-letech/a-plus-rst-tools)
+* [a-plus-rst-tools](https://github.com/aalto-letech/a-plus-rst-tools/)
 
   Set of Sphinx extensions for creating interactive course material with RST.
 
