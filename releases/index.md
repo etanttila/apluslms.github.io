@@ -23,13 +23,10 @@ So, yearly cycle:
 ## Releases
 
 * January 2019: liekovarpio [upcoming]
-
   * A+ v1.4
   * MOOC-Grader v1.4
   * a-plus-rst-tools v1.0
-
 * August 2018: kirjovihma [current]
-
   * A+ v1.3
   * MOOC-Grader v1.3
 
