@@ -12,7 +12,7 @@ but it works for other subjects too.
 
 ## Resources
 
-* [Start a new course from template](https://github.com/A-plus-LMS/course-templates/): dive directly in by setting up a local development environment with the docker.
+* [Quick Start Guide](guides/quick/): Start a new course from a template and dive directly in by setting up a local development environment.
 * [System Architecture](architecture/): description about the design and protocols.
 * [Components](components/): descriptions and github links for various services which are used to build an A+ LMS installation.
 * [Releases](releases/): description about the release schedule and a list of latest releases.
