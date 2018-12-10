@@ -80,4 +80,4 @@ git submodule update
 
 ## Troubles?
 
-* Ports: you can't have anything in ports `8000`, `8080` or `4000` as they are used by A+ LMS.
+* Ports: you can't have anything in ports `8000`, `8080` or `3000` as they are used by A+ LMS.
