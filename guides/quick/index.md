@@ -29,7 +29,8 @@ In short, on Linux install `docker-ce` from docker repositories and on macOS dow
 
 Currently, we still use docker-compose to start local testing environment, so you will need to install it too.
 Follow [this guide](https://docs.docker.com/compose/install/) to install it.
-Note that you can use path `$HOME/.local/bin` to store the script as long as you add it to your _PATH_.
+Note that you can use path `$HOME/.local/bin` to store the script as long as you add it to your _PATH_
+(more in [freedesktop file-hierarchy](https://www.freedesktop.org/software/systemd/man/file-hierarchy.html#Home%20Directory)).
 
 To summarize, you need these tools:
 
