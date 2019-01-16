@@ -5,7 +5,7 @@ that uses a combination of services to enable teachers to fully customize their
 e-learning materials and to combine different kinds of materials flexibly.
 Today, several web services and build tools are included in the A+ software family (see [components](components/)).
 
-A+ is extensively used at Aalto University and Tampere University of Technology.
+A+ is extensively used at Aalto University and Tampere University.
 In Aalto, there are around 25 courses, 4,000 Aalto users, 1,000 MOOC users and 500,000 exercise submissions per year (2018).
 Software is well suited and tested in the computer science,
 but it works for other subjects too.
