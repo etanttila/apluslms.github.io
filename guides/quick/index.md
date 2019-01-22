@@ -36,7 +36,7 @@ To summarize, you need these tools:
 
 * Linux or macOS
 * git
-* docker community edition (docker-ce)
+* docker-ce (Docker Community Edition, Docker for Mac)
 * docker-compose
 
 ## Start your first course
