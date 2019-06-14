@@ -31,7 +31,7 @@ Containers are used in A+ LMS a lot, because they provide sandboxing and an easy
 To run A+ LMS locally, you need to install [Docker](https://www.docker.com/).
 Docker is a containerization software.
 Follow [this guide](https://docs.docker.com/install/) to install Docker Community Edition on your machine.
-In short, on Linux install `docker-ce` from docker repositories and on macOS download and install Docker for Mac.
+In short, on Linux install `docker-ce` from docker repositories and on macOS download and install Docker for Mac. Minimum required Docker version is 1.13.
 
 ### Docker Compose
 
@@ -72,7 +72,7 @@ To summarize, you need these tools:
 
 * Linux or macOS
 * git
-* docker-ce (Docker Community Edition, Docker for Mac)
+* docker-ce 1.13+ (Docker Community Edition, Docker for Mac)
 * docker-compose 1.10+ (included in Docker for Mac)
 * `roman` (apluslms_roman) from PyPi
   * Python 3.5+ (`python3-pip` or via Homebrew on macOS)
