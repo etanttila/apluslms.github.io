@@ -1,0 +1,11 @@
+To build this presentation, you need `hovercraft` python package.
+
+So,
+
+  python3 -m virtualenv -p python3 venv
+  . ./venv/bin/activate
+  pip3 install hovercraft==2.5
+
+and build,
+
+  hovercraft -p 8888 presentation.rst .

@@ -23,6 +23,8 @@ but it works for other subjects too.
 * [2018-08-31 End of summer seminar in Aalto](events/2018-end-of-summer-in-aalto/)
 * [2017-08-30 1st A+CON](events/2017-1st-a-plus-con/)
 
+[All events and presentations](events/)
+
 ## Community
 
 [Join our mailing list](https://groups.google.com/forum/#!forum/apluslms) to
