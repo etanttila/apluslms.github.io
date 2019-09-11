@@ -8,4 +8,4 @@
 * Vertaisarviointityökalu (Peer review service) / Pietari Heino
 * [Sähköinen tenttiminen](sahkoinen_tenttiminen.pdf) (Digital examination) [slides in Finnish] / Juho Pekkinen
 * Plussa TTY:llä: nyt ja tulevaisuudessa (A+ at TTY: now and in future) / Jyke Savia
-* [A+ Roadmap](/roadmap/presentation/) / Jaakko Kantojärvi
+* A+ Roadmap / Jaakko Kantojärvi (outdated, [check current version](/roadmap/presentation/))
