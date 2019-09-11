@@ -1,6 +1,6 @@
 # End of summer seminar in Aalto
 
-2017-08-30 Otaniemi, Espoo, Finland
+2018-08-30 Otaniemi, Espoo, Finland
 
 ## On A+ and related service development
 
