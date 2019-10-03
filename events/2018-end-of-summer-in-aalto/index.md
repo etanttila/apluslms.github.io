@@ -1,4 +1,4 @@
-# End of summer seminar in Aalto
+# End of summer 2018 seminar in Aalto
 
 2018-08-30 Otaniemi, Espoo, Finland
 
