@@ -4,7 +4,7 @@ The A+ LMS project was launched by the [Learning + Technology](https://research.
 The original source project A+ (now referred to as A+ portal) is introduced in a paper *[Service-Oriented Approach to Improve Interoperability of E-Learning Systems](http://dx.doi.org/10.1109/ICALT.2013.105)* (2013) by Karavirta, V. & Ihantola, P. & Koskinen, T.
 Since then, the project has adopted and created new services to support a wider range of requirements (a comprehensive list on [components page](/components/)).
 
-Today, A+ LMS project is lead by the Educational Technology Development and Integration Team (EDIT) in the Department of Computer Science at Aalto University,
+Today, the A+ LMS project is led by the Educational Technology Development and Integration Team (EDIT) in the Department of Computer Science at Aalto University,
 but there are many more contributors,
 mainly from [Tampere University](https://www.tuni.fi), in addition to Aalto.
 
