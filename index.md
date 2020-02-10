@@ -29,9 +29,9 @@ but it works for other subjects too.
 [Join our mailing list](https://groups.google.com/forum/#!forum/apluslms) to
 receive announcements on new features, bug fixes, and events.
 <apluslms@googlegroups.com> reaches also the core team of developers.
-Bugs can be reported at [github.com/Aalto-LeTech/a-plus/issues](https://github.com/Aalto-LeTech/a-plus/issues).
+Bugs can be reported at [github.com/apluslms/a-plus/issues](https://github.com/apluslms/a-plus/issues).
 
 In recent years, the main users and developers of the system have originated
 from Aalto University and Tampere University of Technology in Finland. We warmly
 welcome Github pull requests for updates and fixes. New ideas can be discussed
-at [letech.slack.com](https://letech.slack.com/) or specific events.
+at [apluslms.slack.com](https://apluslms.slack.com/) or specific events.

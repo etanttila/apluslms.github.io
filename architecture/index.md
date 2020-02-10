@@ -23,9 +23,9 @@ The front does not store learning materials but loads everything
 from external services via HTTP. Also submissions are posted
 to external services that respond with feedback content.
 
-* Software: <https://github.com/Aalto-LeTech/a-plus>
-* Protocol description: <https://github.com/Aalto-LeTech/a-plus/blob/master/doc/GRADERS.md>
-* Markup reference: <https://github.com/Aalto-LeTech/a-plus/blob/master/doc/CONTENT.md>
+* Software: <https://github.com/apluslms/a-plus>
+* Protocol description: <https://github.com/apluslms/a-plus/blob/master/doc/GRADERS.md>
+* Markup reference: <https://github.com/apluslms/a-plus/blob/master/doc/CONTENT.md>
 
 In addition to standard A-plus front, a Moodle-plugin exists that
 can connect A-plus learning materials as Moodle activities.
@@ -49,8 +49,8 @@ Each assessment executes in new container that is destroyed at end.
 The mooc-grader includes a gitmanager module that offers a web
 interface to add new courses directly from Git repositories.
 
-* Software: <https://github.com/Aalto-LeTech/mooc-grader>
-* Configuration reference: <https://github.com/Aalto-LeTech/mooc-grader/blob/master/courses/README.md>
+* Software: <https://github.com/apluslms/mooc-grader>
+* Configuration reference: <https://github.com/apluslms/mooc-grader/blob/master/courses/README.md>
 
 
 ## Schematics

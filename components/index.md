@@ -12,7 +12,7 @@ Remember that this is not a complete list and organizations have custom assessme
 These components are the corner stones of any A+ LMS installation.
 The [release schedule](/releases/#release-schedule) applies to these.
 
-* [A+ portal](https://github.com/aalto-letech/a-plus/)
+* [A+ portal](https://github.com/apluslms/a-plus/)
 
   The user facing web portal.
   Contains course definitions, retrieves course material and exercises, presents them to the user and records points and grades.
@@ -20,7 +20,7 @@ The [release schedule](/releases/#release-schedule) applies to these.
 
   It's possible to have similar, but limited, features in a moodle using a plugin [mod_atra](https://github.com/Aalto-LeTech/moodle-mod_astra/).
 
-* [MOOC Grader](https://github.com/aalto-letech/mooc-grader/)
+* [MOOC Grader](https://github.com/apluslms/mooc-grader/)
 
   An automatic assessment framework.
   Can provide multiple different exercise types including questionnaires and programming exercises.
