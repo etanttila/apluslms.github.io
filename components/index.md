@@ -56,7 +56,7 @@ Some commonly used assessment and support services.
   A service that provides manual grading for file submission with an assessment guide.
   Works well for project reports and manually graded project files.
 
-* [Acos server](https://github.com/acos-server/acos-server)
+* [Acos server](https://github.com/acos-server/acos-server/)
 
   Browser-based smart learning content in a reusable and interoperable way.
   The core idea is that different types of smart learning content can be
@@ -86,7 +86,7 @@ Utility services that are often helpful.
   Students peer-review each other's submissions.
   This tool can be used standalone or with A+ using LTI integration.
 
-* [Grading helper](https://github.com/eliisav/gradinghelper)
+* [Grading helper](https://github.com/eliisav/gradinghelper/)
 
   Tool for teachers for managing the process of manual assessment of student projects.
   Teachers allocate students to certain teaching assistants:
@@ -101,6 +101,6 @@ Utility services that are often helpful.
   Tool for compiling course materials defined in LaTeX into the RST format of a-plus-rst-tools.
   This allows teachers to write A+ course contents in LaTeX without RST.
 
-* [Presentation maker](https://github.com/Aalto-LeTech/presentation-maker)
+* [Presentation maker](https://github.com/Aalto-LeTech/presentation-maker/)
 
   Create presentations from point-of-interests within A+ course materials.
