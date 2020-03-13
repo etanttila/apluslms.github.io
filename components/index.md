@@ -100,3 +100,7 @@ Utility services that are often helpful.
 
   Tool for compiling course materials defined in LaTeX into the RST format of a-plus-rst-tools.
   This allows teachers to write A+ course contents in LaTeX without RST.
+
+* [Presentation maker](https://github.com/Aalto-LeTech/presentation-maker)
+
+  Create presentations from point-of-interests within A+ course materials.
