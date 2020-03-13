@@ -22,7 +22,11 @@ So, yearly cycle:
 
 ## Releases
 
-* August 2019: mahonia [current]
+* January 2020: nuokkukuusama [current]
+  * A+ v1.6
+  * MOOC-Grader v1.6
+  * a-plus-rst-tools v1.2 (the tag will be added to git later after some changes)
+* August 2019: mahonia
   * A+ v1.5
   * MOOC-Grader v1.5
   * a-plus-rst-tools v1.1
