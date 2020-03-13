@@ -18,7 +18,7 @@ The [release schedule](/releases/#release-schedule) applies to these.
   Contains course definitions, retrieves course material and exercises, presents them to the user and records points and grades.
   Basically, it's the user interface and the data storage.
 
-  It's possible to have similar, but limited, features in a moodle using a plugin [mod_atra](https://github.com/Aalto-LeTech/moodle-mod_astra/).
+  It's possible to have similar, but limited, features in Moodle using the plugin [mod_astra](https://github.com/Aalto-LeTech/moodle-mod_astra/).
 
 * [MOOC Grader](https://github.com/apluslms/mooc-grader/)
 
@@ -56,6 +56,13 @@ Some commonly used assessment and support services.
   A service that provides manual grading for file submission with an assessment guide.
   Works well for project reports and manually graded project files.
 
+* [Acos server](https://github.com/acos-server/acos-server)
+
+  Browser-based smart learning content in a reusable and interoperable way.
+  The core idea is that different types of smart learning content can be
+  hosted in Acos and offered to various Learning Management Systems (LMS)
+  using different protocols.
+
 ## Utilities
 
 Utility services that are often helpful.
@@ -73,3 +80,23 @@ Utility services that are often helpful.
   A student can store code snippets in the service so they can work with them in other location or so they can share it with the course staff.
   Code snippets are not visible to other users, except to the course staff if direct link is provided.
   Thus, a student can safely share the link in a forum or a chat without other students seeing the content.
+
+* [Peer-review platform](https://github.com/piehei/prplatform/)
+
+  Students peer-review each other's submissions.
+  This tool can be used standalone or with A+ using LTI integration.
+
+* [Grading helper](https://github.com/eliisav/gradinghelper)
+
+  Tool for teachers for managing the process of manual assessment of student projects.
+  Teachers allocate students to certain teaching assistants:
+  one student is allocated to one teaching assistant for the supervision and
+  assessment of the project.
+  Teaching assistants report on their assessment progress:
+  the tool can track different stages of the assessment work until it is finished, and
+  which students have been completely assessed and which are unfinished.
+
+* LaRST (LaTeX-to-RST) (the project repository is not yet publicly available)
+
+  Tool for compiling course materials defined in LaTeX into the RST format of a-plus-rst-tools.
+  This allows teachers to write A+ course contents in LaTeX without RST.
