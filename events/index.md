@@ -11,5 +11,7 @@ List of events, which did focus on A+ LMS.
 
 Some presentations from events, where A+ LMS was not the primary topic.
 
-* 2019-08-21 A meeting for the project _Älykkäät oppimisympäristöt_
+* 2020-04-29 A status update meeting about Shepherd, Roman and course deployment  
+  [A+ Shepherd](presentations/2020-04-29-shepherd-qin.pdf) / Qianqian Qin
+* 2019-08-21 A meeting for the project _Ällykkäät oppimisympäristöt_  
   [Cloud First Learning Management Systems](presentations/2019-08-21-alyoppi-cloud-lms/) / Jaakko Kantojärvi
