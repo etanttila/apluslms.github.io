@@ -24,7 +24,7 @@ from external services via HTTP. Also submissions are posted
 to external services that respond with feedback content.
 
 * Software: <https://github.com/apluslms/a-plus>
-* Protocol description: <https://github.com/apluslms/a-plus/blob/master/doc/GRADERS.md>
+* [Description of the protocols](../protocols/)
 * Markup reference: <https://github.com/apluslms/a-plus/blob/master/doc/CONTENT.md>
 
 In addition to standard A-plus front, a Moodle-plugin exists that

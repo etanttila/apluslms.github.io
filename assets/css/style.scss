@@ -69,6 +69,12 @@ $hr-border-color: #eff0f1;
     background-size: 20em 20em;
     filter: blur(2px);
   }
+
+  // Fix lists
+  li > * {
+    margin-top: 0;
+    margin-bottom: 0.6em;
+  }
 }
 
 // transparency fix

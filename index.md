@@ -14,6 +14,7 @@ but it works for other subjects too.
 
 * [Quick Start Guide](guides/quick/): Start a new course from a template and dive directly in by setting up a local development environment.
 * [System Architecture](architecture/): description about the design and protocols.
+* [List of protocols](protocols/): a list of different protocols and description of those created by the project.
 * [Components](components/): descriptions and github links for various services which are used to build an A+ LMS installation.
 * [Releases](releases/): description about the release schedule and a list of latest releases.
 
