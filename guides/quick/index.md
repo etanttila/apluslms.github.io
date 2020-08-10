@@ -65,7 +65,7 @@ Time to time, it's good to remove the data, so all the test submissions are clea
 
 You now open <http://localhost:8000> and you should see A+ front page.
 Open the course and read more.
-Test environment has three users: _root_, _assistant_ and _student_.
+The test environment has four users: _teacher_, _assistant_, _student_, and _root_.
 Password for every user is the same as the user name.
 
 To summarize, execute the following:
