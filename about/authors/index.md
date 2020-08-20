@@ -12,11 +12,11 @@ mainly from [Tampere University](https://www.tuni.fi), in addition to Aalto.
 
 Currently the project is spearheaded by:
 
-* [Jaakko Kantojärvi](https://github.com/raphendyr)
 * [Markku Riekkinen](https://github.com/Mankro)
 
 Past project heads:
 
+* [Jaakko Kantojärvi](https://github.com/raphendyr)
 * [Teemu Lehtinen](https://github.com/teemulehtinen)
 * Teemu Havulinna (Teemu Koskinen)
 
@@ -34,7 +34,7 @@ Past project heads:
 * [Artturi Tilanterä](https://github.com/atilante)
 * [Ats Nisov](https://github.com/Rubinous)
 * Eliisa Vakeva
-* Ella Anttila
+* [Ella Anttila](https://github.com/etanttila)
 * [Emma Ahonen](https://github.com/madaian)
 * [Emma Honkamaa](https://github.com/ematan)
 * Henrik Milan
@@ -57,26 +57,28 @@ Past project heads:
 * [Miki Tolonen](https://github.com/splyysh)
 * Märt Vesinurm
 * Neea Tuomainen
+* Niklas Kröger
 * [Oscar Smedjebacka](https://github.com/Osccu)
 * Otto Seppälä
 * Panu Erästö
 * [Petri Ihantola](https://github.com/ihantola)
 * [Pietari Heino](https://github.com/piehei)
 * [Pinja Jäkkö](https://github.com/ppessi)
-* [覃茜茜 (Qianqian Qin)](https://github.com/QianqianQ)
+* [Qianqian Qin (覃茜茜)](https://github.com/QianqianQ)
 * Riikka Soitinaho
 * [Riku Autio](https://github.com/rigperro)
 * [Roosa Piitulainen](https://github.com/roosapi)
-* [Ruiyang Ding](https://github.com/JohnDing1995)
+* [Ruiyang Ding (丁瑞洋)](https://github.com/JohnDing1995)
 * [Saara Satokangas](https://github.com/saarasat)
 * [Sami Laine](https://github.com/Gehock)
 * Sami Sarsa
+* Tanvi Jain
 * [Tapio Auvinen](https://github.com/tsauvine)
 * [Teemu Sirkiä](https://github.com/ttsirkia)
 * Timi Seppälä
 * Tommi Junttila
 * [Tommy Johansson](https://github.com/polyure)
-* Veera Alt
+* [Veera Alt](https://github.com/veeraalt)
 * [Vesa Ala-Laurinaho](https://github.com/alalav1)
 * [Ville Karavirta](https://github.com/vkaravir)
 * Ville Vironmäki

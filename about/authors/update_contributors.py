@@ -60,6 +60,7 @@ IGNORED_DOMAINS = {
 
 REALNAMES = {
     'Qianqian Qin': '覃茜茜',
+    'Ruiyang Ding': '丁瑞洋',
 }
 
 emails_to_github_users = {}
@@ -258,7 +259,7 @@ def format_authors(authors):
         if profile:
             line += '['
         if name in REALNAMES:
-            line += f"{REALNAMES[name]} ({name})"
+            line += f"{name} ({REALNAMES[name]})"
         else:
             line += name
         if profile:
