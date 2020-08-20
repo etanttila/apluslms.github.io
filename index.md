@@ -26,6 +26,9 @@ but it works for other subjects too.
 
 ## Community
 
+A lot of people have contributed to the project, see [authors](about/authors/) for details.
+Join the community and be part of making education better for all!
+
 [Join our mailing list](https://groups.google.com/forum/#!forum/apluslms) to
 receive announcements on new features, bug fixes, and events.
 <apluslms@googlegroups.com> reaches also the core team of developers.

@@ -235,7 +235,7 @@ def collect_authors(repos):
 
 
 def print_summary(authors):
-    print("Authors and projects:")
+    print(f"Authors and projects (total of {len(authors)}):")
     for author in sorted(authors, key=lambda x: (x['name'], x['id'])):
         projects = ', '.join(sorted(author['projects']))
         print(f"  {author['name']}")
