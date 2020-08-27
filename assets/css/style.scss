@@ -139,6 +139,14 @@ nav.page-nav {
     font-family: "Font Awesome 5 Brands";
   }
 
+  a[href^="http://"]:after,
+  a[href^="https://"]:not([href^="https://github.com"]):after,
+  a[href^="https://github.com"]:not([href$="/"]):after {
+    content: "\00a0\f35d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+
   a[href$=".pdf"]:after {
     content: "\00a0\f1c1";
     font-family: "Font Awesome 5 Free";
