@@ -1,7 +1,7 @@
 ---
 nav-group: A+
 nav-weight: 1
-nav-title: Frontpage
+nav-title: Home
 ---
 # A+
 
