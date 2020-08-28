@@ -19,6 +19,90 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		<script src="https://cdn.jsdelivr.net/npm/scrollnav@3.0.2/dist/scrollnav.min.umd.min.js" integrity="sha384-poZaMDrOYjnRzW75iVcNY9srvnNAxNw8G5vr6XMEZx/zyXZ8gymnRF0WBXAnd5Fg" crossorigin="anonymous"></script>
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				if (scrollnav !== 'undefined') {
+					const content = document.getElementById('content');
+					const target = document.getElementById('sidebar');
+					scrollnav.init(content, {
+						insertTarget: target,
+						insertLocation: 'append',
+					});
+					console.log("TOC done");
+				}
+			});
+		</script>
+<style>
+.main-content {
+	margin: 0;
+	margin-right: 300px;
+}
+
+.sidebar__inner {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 50px;
+	margin-bottom: 80px;
+	float: right;
+}
+
+.sidebar__header {
+	padding: 10px 20px; }
+
+.sidebar__header {
+	-webkit-box-align: end;
+			-ms-flex-align: end;
+					align-items: flex-end;
+	background-color: #e8eaf3;
+	border: 1px solid #e8eaf3;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+					justify-content: space-between; }
+
+.sidebar__heading {
+	font-size: 1.26316em;
+	margin: 0; }
+
+.sidebar__small {
+	color: #3c5169;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.45; }
+
+.scroll-nav {
+	border: 1px solid #c8cfd6;
+	border-top: none;
+	font-weight: 400;
+	font-size: 0.84211em; }
+@media screen and (min-width: 51.875em) {
+		.scroll-nav {
+			padding-bottom: 30px;
+			padding-top: 20px; } }
+
+.scroll-nav__list {
+	margin-top: 8px;
+	padding-left: 15px;
+	position: relative; }
+
+.scroll-nav__item {
+	margin-bottom: 8px; }
+
+.scroll-nav__item--active:before {
+	border-left: 2px solid #00bfa0;
+	content: '';
+	display: block;
+	height: 1em;
+	left: 0;
+	position: absolute; }
+
+.scroll-nav__link {
+	display: block;
+	text-decoration: none; }
+</style>
 	</head>
 	<body>
 		<header class="page-header" role="banner">
@@ -32,6 +116,10 @@
 				<a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
 			{% endif %}
 		</header>
+
+		<div id="sidebar" class="sidebar__inner">
+			<h2>Menu</h2>
+		</div>
 
 		<main id="content" class="main-content" role="main">
 			{% include breadcrumbs.html %}
