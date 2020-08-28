@@ -23,7 +23,7 @@ Remember to send updates to [upstream]({{ site.github.repository_url }}) too!
   * indent: **2 spaces**
   * max line length:, soft limit **79**, hard limit 99
   * identifier names: **PascalCase** for classes; **camelCase** for variables, functions and methods
-* Python, Django and other Python frameworks
+* [Python](python/), Django and other Python frameworks
   * indent: **4 spaces**
   * max line length: text blocks 72, soft limit **79**, hard limit 119
   * identifier names: **PascalCase** for classes; **snake_case** for variables, functions and methods
