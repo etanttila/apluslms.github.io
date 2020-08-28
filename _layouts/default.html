@@ -39,6 +39,21 @@
 			{{ content }}
 
 			<footer class="site-footer">
+				<nav class="footer-map">
+					{% assign nav_groups = site.html_pages | group_by: 'nav-group' | sort: 'name' %}
+					{% for group in nav_groups %}
+						{% if group.name != '' %}
+							<div class="footer-map__box">
+								<h2>{{ group.name | capitalize }}</h2>
+								{% assign group_pages = group.items | sort: 'nav-weight' %}
+								{% for page in group_pages %}
+								<a href="{{ page.url }}">{{ page.nav-title | default: page.title }}</a>
+								{% endfor %}
+							</div>
+						{% endif %}
+					{% endfor %}
+				</nav>
+
 				{% if site.github.is_project_page %}
 					<span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
 				{% endif %}

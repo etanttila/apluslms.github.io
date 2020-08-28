@@ -1,3 +1,8 @@
+---
+nav-group: community
+nav-weight: 9
+nav-title: Authors
+---
 # Authors of A+ LMS
 
 The A+ LMS project was launched by the [Learning + Technology](https://research.cs.aalto.fi/LeTech/) research group at Aalto University as a solution for integrating multiple online learning services.

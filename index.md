@@ -1,3 +1,8 @@
+---
+nav-group: A+
+nav-weight: 1
+nav-title: Frontpage
+---
 # A+
 
 A+ is an interoperable and extendable Learning Management System (A+ LMS, apluslms)

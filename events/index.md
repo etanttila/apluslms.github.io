@@ -1,3 +1,7 @@
+---
+nav-group: A+
+nav-weight: 3
+---
 # Events
 
 List of events, which did focus on A+ LMS.

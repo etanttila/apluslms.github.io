@@ -1,3 +1,7 @@
+---
+nav-group: software
+nav-weight: 1
+---
 # Quick Start Guide
 
 A+ LMS is complex environment, but this short guide will get you going.

@@ -1,3 +1,7 @@
+---
+nav-group: software
+nav-weight: 3
+---
 ## Architecture
 
 A-plus is designed to be extendable. The ecosystem includes multiple web

@@ -1,3 +1,7 @@
+---
+nav-group: software
+nav-weight: 9
+---
 # Releases
 
 A release is a bit vague term for A+ LMS and it is more there to set dates and to help talking about set of features.

@@ -1,3 +1,7 @@
+---
+nav-group: software
+nav-weight: 7
+---
 # Components
 
 Only a few services are [core](#core) components for any A+ LMS installation.

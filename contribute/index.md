@@ -1,3 +1,7 @@
+---
+nav-group: community
+nav-weight: 1
+---
 # Get Involved
 
 [//]: # (See following for help writing this page)

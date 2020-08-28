@@ -1,3 +1,7 @@
+---
+nav-group: software
+nav-weight: 5
+---
 # Protocols
 
 Protocol definitions are import for service-oriented architecture.

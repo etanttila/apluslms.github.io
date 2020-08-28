@@ -1,3 +1,7 @@
+---
+nav-group: community
+nav-weight: 4
+---
 # Style Guides
 
 ## EditorConfig
