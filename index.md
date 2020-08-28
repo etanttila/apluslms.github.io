@@ -18,24 +18,15 @@ but it works for other subjects too.
 * [Components](components/): descriptions and github links for various services which are used to build an A+ LMS installation.
 * [Releases](releases/): description about the release schedule and a list of latest releases.
 
-## Events
+## Get involved
+
+[You are welcome to get involved](contribute/) in making the education of tomorrow better for all and become part of our growing list of [authors](about/authors/)!
+
+
+### Events
 
 * [2019-08-23 End of summer seminar in Aalto](events/2019-end-of-summer-in-aalto/)
 * [2018-11-07 2nd A+ World Con](events/2018-2nd-a-plus-world-con/)
 
 [All events and presentations](events/)
 
-## Community
-
-A lot of people have contributed to the project, see [authors](about/authors/) for details.
-Join the community and be part of making education better for all!
-
-[Join our mailing list](https://groups.google.com/forum/#!forum/apluslms) to
-receive announcements on new features, bug fixes, and events.
-<apluslms@googlegroups.com> reaches also the core team of developers.
-Bugs can be reported at [github.com/apluslms/a-plus/issues](https://github.com/apluslms/a-plus/issues).
-
-In recent years, the main users and developers of the system have originated
-from Aalto University and Tampere University of Technology in Finland. We warmly
-welcome Github pull requests for updates and fixes. New ideas can be discussed
-at [apluslms.slack.com](https://apluslms.slack.com/) or specific events.
