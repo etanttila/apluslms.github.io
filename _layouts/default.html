@@ -38,11 +38,6 @@
 
 			{{ content }}
 
-			<div class="last-modified-info">
-				This page was last updated on
-				<time datetime="{{ page.last_modified_at | date: '%Y-%m-%d' }}">{{ page.last_modified_at | date: '%d %B %Y' }}</time>
-			</div>
-
 			<footer class="site-footer">
 				<nav class="footer-map">
 					{% assign nav_groups = site.html_pages | group_by: 'nav-group' | sort: 'name' %}
