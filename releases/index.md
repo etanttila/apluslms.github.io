@@ -12,8 +12,8 @@ A+ LMS services have their own releases, though those can be synchronized with d
 
 New versions of [core components](/components/#core) are released two times a year.
 The first release is at the start of January and the second at the start of June.
-Features are frozen few months before releases,
-thus in November and May.
+Features are frozen a few weeks before releases,
+that is, in November and May.
 Only bug fixes are accepted during a feature freeze,
 so develop and provide a pull request for a feature early.
 
@@ -26,10 +26,14 @@ So, yearly cycle:
 
 ## Releases
 
-* January 2020: nuokkukuusama [current]
+* June 2020: okakuusi [current]
+  * A+ v1.7
+  * MOOC-Grader v1.7
+  * a-plus-rst-tools v1.2 (the tag will be added to git later after some changes)
+* January 2020: nuokkukuusama
   * A+ v1.6
   * MOOC-Grader v1.6
-  * a-plus-rst-tools v1.2 (the tag will be added to git later after some changes)
+  * a-plus-rst-tools (tagging the release was postponed)
 * August 2019: mahonia
   * A+ v1.5
   * MOOC-Grader v1.5
