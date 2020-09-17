@@ -84,6 +84,9 @@ Or are you enthusiastic about accessibility?
 Our software can always be more accessible.
 In any case, you are welcome help us improve the software for everyone, as it's not just for programmers!
 
+* [A+ Design System](https://apluslms.github.io/a-plus-design-system/) describes consistent, robust and accessible components and styles.
+* [A+ Accessibility and Inclusive Design Audit](https://apluslms.github.io/accessibility-audit/)
+
 
 ## Documentation
 

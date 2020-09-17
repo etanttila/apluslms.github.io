@@ -17,6 +17,9 @@ Remember to send updates to [upstream]({{ site.github.repository_url }}) too!
 
 ## Style Guides for major languages
 
+[A+ Design System](https://apluslms.github.io/a-plus-design-system/)
+showcases consistent, robust and accessible components and styles for building in the A+ ecosystem.
+
 * [CSS and SCSS](css/)
   * indent: **tab**
   * identifier names: variables `$brand-success` and `--brand-success`, classes use [BEM](http://getbem.com/)

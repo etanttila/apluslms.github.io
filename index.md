@@ -21,6 +21,8 @@ but it works for other subjects too.
 * [System Architecture](architecture/): description about the design and protocols.
 * [List of protocols](protocols/): a list of different protocols and description of those created by the project.
 * [Components](components/): descriptions and github links for various services which are used to build an A+ LMS installation.
+* [A+ Design System](https://apluslms.github.io/a-plus-design-system/): consistent, robust and accessible components and styles for building in the A+ ecosystem.
+* [A+ Accessibility and Inclusive Design Audit](https://apluslms.github.io/accessibility-audit/): report on accessibility issues.
 * [Releases](releases/): description about the release schedule and a list of latest releases.
 
 ## Get involved
