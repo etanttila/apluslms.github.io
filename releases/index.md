@@ -30,10 +30,12 @@ So, yearly cycle:
   * A+ v1.7
   * MOOC-Grader v1.7
   * a-plus-rst-tools v1.2 (the tag will be added to git later after some changes)
+  * [Release notes](https://wiki.aalto.fi/display/EDIT/Aplus+Service+break+summer+2020)
 * January 2020: nuokkukuusama
   * A+ v1.6
   * MOOC-Grader v1.6
   * a-plus-rst-tools (tagging the release was postponed)
+  * [Release notes](https://wiki.aalto.fi/pages/viewpage.action?pageId=163022321)
 * August 2019: mahonia
   * A+ v1.5
   * MOOC-Grader v1.5
