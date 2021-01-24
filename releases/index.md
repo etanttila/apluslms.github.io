@@ -26,10 +26,15 @@ So, yearly cycle:
 
 ## Releases
 
-* June 2020: okakuusi [current]
+* January 2021: pallohortensia [current]
+  * A+ v1.8
+  * MOOC-Grader v1.8
+  * a-plus-rst-tools v1.3
+  * [Release notes](https://wiki.aalto.fi/display/EDIT/Aplus+version+upgrade+and+service+break+January+4th+2021)
+* June 2020: okakuusi
   * A+ v1.7
   * MOOC-Grader v1.7
-  * a-plus-rst-tools v1.2 (the tag will be added to git later after some changes)
+  * a-plus-rst-tools v1.2
   * [Release notes](https://wiki.aalto.fi/display/EDIT/Aplus+Service+break+summer+2020)
 * January 2020: nuokkukuusama
   * A+ v1.6
