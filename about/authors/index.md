@@ -17,13 +17,19 @@ mainly from [Tampere University](https://www.tuni.fi), in addition to Aalto.
 
 Currently the project is spearheaded by:
 
-* [Markku Riekkinen](https://github.com/Mankro)
+* [Markku Riekkinen](https://github.com/Mankro), Systems Specialist & Lead Developer. [LinkedIn](https://www.linkedin.com/in/markku-riekkinen-450267143/)
+* [Pasi Sarolahti](https://github.com/PasiSa), Staff Scientist & Architect (from February 2021 onwards)
+
+Other core team members:
+
+* [Jhosimar Aguacia](https://github.com/jaguarfi), System Designer, Developer & Support Specialist (from February 2020 onwards)
+* [Anni Rytkönen](https://github.com/annirytkonen), Staff Scientist & Team Leader (from October 2019 onwards)
 
 Past project heads:
 
 * [Jaakko Kantojärvi](https://github.com/raphendyr)
 * [Teemu Lehtinen](https://github.com/teemulehtinen)
-* Teemu Havulinna (Teemu Koskinen)
+* [Teemu Havulinna (Teemu Koskinen)](https://github.com/havulinna)
 
 ## In addition, the following people have contributed to the project:
 
