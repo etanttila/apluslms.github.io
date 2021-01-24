@@ -4,8 +4,9 @@ nav-weight: 3
 ---
 # Events
 
-List of events, which did focus on A+ LMS.
+List of events, which focused on A+ LMS.
 
+* [2021-01-15 A+ development webinar](2021-development/)
 * [2020-08-19 End of summer webinar in Aalto](2020-end-of-summer-in-aalto/)
 * [2020-05-29 Spring webinar in Aalto](2020-spring-in-aalto/)
 * [2019-08-23 End of summer seminar in Aalto](2019-end-of-summer-in-aalto/)
