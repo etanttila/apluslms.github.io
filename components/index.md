@@ -71,6 +71,12 @@ Some commonly used assessment and support services.
 
 Utility services that are often helpful.
 
+* [Aplus Tools VS Code extension](https://github.com/apluslms/vscode-aplus-tools)
+
+  Extension to the VS Code editor.
+  This eases the development of A+ courses and the writing of learning materials in RST.
+  Released in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jaguarfi.aplus-tools).
+
 * [Neuvontajono](https://github.com/ttsirkia/neuvontajono/)
 
   Neuvontajono is an interactive queue system for lab sessions (neuvontajono in Finnish) where students can ask help from course assistants.
@@ -108,3 +114,19 @@ Utility services that are often helpful.
 * [Presentation maker](https://github.com/apluslms/presentation-maker/)
 
   Create presentations from point-of-interests within A+ course materials.
+
+* [Grading base container](https://github.com/apluslms/grading-base/)
+
+  Base container for building exercise grading containers for the MOOC Grader.
+  There are also many more specialized containers that have been built on top of grading-base,
+  for example, for grading Python programming exercises.
+
+  - [Grade C](https://github.com/apluslms/grade-c)
+  - [Grade Clingo](https://github.com/apluslms/grading-clingo)
+  - [Grade Java](https://github.com/apluslms/grade-java)
+  - [Grade Node.js](https://github.com/apluslms/grade-nodejs)
+  - [Grade Octave](https://github.com/apluslms/grade-octave)
+  - [Grade Python](https://github.com/apluslms/grade-python)
+  - [Grade Scala](https://github.com/apluslms/grade-scala)
+  - [Grade web](https://github.com/apluslms/grade-web)
+
