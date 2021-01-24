@@ -43,11 +43,13 @@ To summarize, you need these tools:
 * docker-ce (Docker Community Edition, Docker for Mac)
 * docker-compose
 
+Our [wiki page for A+ interns](https://wiki.aalto.fi/display/EDIT/Aplus+orientation#Aplusorientation-InstallingDockerCompose) has instructions for installing docker-compose.
+
 ## Start your first course
 
-First, download a copy of [the course manual](https://github.com/apluslms/course-templates/), it will work as your template.
+First, download a copy of [the course manual](https://github.com/apluslms/aplus-manual/), it will work as your template.
 Open terminal and move to a folder where you want to store your courses.
-Then execute `git clone https://github.com/apluslms/course-templates.git my_new_course`.
+Then execute `git clone https://github.com/apluslms/aplus-manual.git my_new_course`.
 Move in the course folder `cd my_new_course`.
 
 Second, update git submodules as RST extensions are still distributed this way.
@@ -75,7 +77,7 @@ Password for every user is the same as the user name.
 To summarize, execute the following:
 
 ```
-git clone https://github.com/apluslms/course-templates.git my_new_course
+git clone https://github.com/apluslms/aplus-manual.git my_new_course
 cd my_new_course
 git submodule init
 git submodule update
