@@ -31,10 +31,10 @@ to external services that respond with feedback content.
 * [Description of the protocols](../protocols/)
 * Markup reference: <https://github.com/apluslms/a-plus/blob/master/doc/CONTENT.md>
 
-In addition to standard A-plus front, a Moodle-plugin exists that
+In addition to standard A-plus front, a Moodle plugin exists that
 can connect A-plus learning materials as Moodle activities.
 
-* Software: <https://github.com/Aalto-LeTech/moodle-mod_astra>
+* Software: <https://github.com/apluslms/moodle-mod_astra>
 
 
 ### The mooc-grader

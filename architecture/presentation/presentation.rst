@@ -367,7 +367,7 @@ Interoperability
 
 * Microservices are reusable with other LMSes
 
-* For moodle, there is `mod_astra <https://github.com/Aalto-LeTech/moodle-mod_astra>`_. with implementation for core A+ features.
+* For moodle, there is `mod_astra <https://github.com/apluslms/moodle-mod_astra>`_. with implementation for core A+ features.
 
 ----
 

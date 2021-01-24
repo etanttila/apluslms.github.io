@@ -22,7 +22,7 @@ The [release schedule](/releases/#release-schedule) applies to these.
   Contains course definitions, retrieves course material and exercises, presents them to the user and records points and grades.
   Basically, it's the user interface and the data storage.
 
-  It's possible to have similar, but limited, features in Moodle using the plugin [mod_astra](https://github.com/Aalto-LeTech/moodle-mod_astra/).
+  It's possible to have similar, but limited, features in Moodle using the plugin [mod_astra](https://github.com/apluslms/moodle-mod_astra/).
 
 * [MOOC Grader](https://github.com/apluslms/mooc-grader/)
 
@@ -41,20 +41,20 @@ The [release schedule](/releases/#release-schedule) applies to these.
 
 Some commonly used assessment and support services.
 
-* [MOOC Jutut](https://github.com/aalto-letech/mooc-jutut/)
+* [MOOC Jutut](https://github.com/apluslms/mooc-jutut/)
 
   An interactive feedback or learning journal service.
   Presents a form for students to fill their thoughts or problems,
   which are then accepted or answered by the course staff.
 
-* [Radar](https://github.com/aalto-letech/radar/)
+* [Radar](https://github.com/apluslms/radar/)
 
   Automatic similarity analysis for source code and other tokenizable data.
   Can be used to observe patterns in student submissions.
   Furthermore, can even be used to find possible cases of plagiarism,
   though always do a thorough manual validation for every case.
 
-* [Rubyric](https://github.com/aalto-letech/rubyric/)
+* [Rubyric](https://github.com/apluslms/rubyric/)
 
   Rubric-based assessment tool.
   A service that provides manual grading for file submission with an assessment guide.
@@ -105,6 +105,6 @@ Utility services that are often helpful.
   Tool for compiling course materials defined in LaTeX into the RST format of a-plus-rst-tools.
   This allows teachers to write A+ course contents in LaTeX without RST.
 
-* [Presentation maker](https://github.com/Aalto-LeTech/presentation-maker/)
+* [Presentation maker](https://github.com/apluslms/presentation-maker/)
 
   Create presentations from point-of-interests within A+ course materials.
