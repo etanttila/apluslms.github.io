@@ -52,6 +52,10 @@ IGNORED_AUTHORS = {
     'none',
     'aplus@plus.cs.hut.fi',
     'rubyric@rubyric.com',
+    'jutut@jutut.cs.hut.fi',
+}
+IGNORED_USER_IDS = {
+    'github:dependabot[bot]',
 }
 
 IGNORED_DOMAINS = {
@@ -111,8 +115,10 @@ class Github:
                     'name': obj['name'],
                     'email': obj['email'],
                 }
-        elif obj['type'] == 'User':
+        elif obj['type'] in ('User', 'Bot'):
             login = obj['login']
+        else:
+            raise Exception("Unknown user type: " + obj['type'])
         # resolve github login to user object
         if login not in self.users:
             user = dict(obj)
@@ -130,7 +136,8 @@ class Github:
                 user['_anon_'] = True
             else:
                 user['name'] = login
-                print(f"    !! warning: no name for: {login} {user['url'], user['html_url']}")
+                if 'github:' + login not in IGNORED_USER_IDS:
+                    print(f"    !! warning: no name for: {login} {user['url'], user['html_url']}")
 
         return {
             'provider': 'github',
@@ -160,7 +167,11 @@ class Github:
         return all_users
 
     def org_repos(self, org):
-        url = f'{self.API}/orgs/{org}/repos'
+        # FIXME: if the organisation has over 100 repositories,
+        # proper pagination needs to be implemented here so that
+        # all repositories are fetched.
+        # https://docs.github.com/en/rest/reference/repos#list-organization-repositories
+        url = f'{self.API}/orgs/{org}/repos?per_page=100'
         return [repo['full_name'] for repo in self.session.get(url).json()]
 
 
@@ -214,7 +225,8 @@ def collect_authors(repos):
     all_authors = [user for user in authors.values()
                    if user['email'] not in IGNORED_AUTHORS
                    and user['name'] not in IGNORED_AUTHORS
-                   and not any(user['email'] and user['email'].endswith(d) for d in IGNORED_DOMAINS)]
+                   and not any(user['email'] and user['email'].endswith(d) for d in IGNORED_DOMAINS)
+                   and user['id'] not in IGNORED_USER_IDS]
     known_users = [user for user in all_authors if user['provider'] is not None]
     email_map = {user['email']: user for user in known_users}
     name_map = {user['name']: user for user in known_users}
