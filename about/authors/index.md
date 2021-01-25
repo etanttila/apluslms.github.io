@@ -51,7 +51,6 @@ Past project heads:
 * Henrik Milan
 * [Henrik Sundell](https://github.com/HenrikSundell)
 * [Jan-Mikael Rybicki](https://github.com/janmikaelr)
-* [Jhosimar Aguacia](https://github.com/jaguarfi)
 * Jingzhou Ou
 * [Jonas Berg](https://github.com/MrBerg)
 * [Joonatan Partanen](https://github.com/jparta)
@@ -77,12 +76,13 @@ Past project heads:
 * [Pinja Jäkkö](https://github.com/ppessi)
 * [Qianqian Qin (覃茜茜)](https://github.com/QianqianQ)
 * Riikka Soitinaho
-* [Riku Autio](https://github.com/rigperro)
+* [Riku Aapakallio-Autio](https://github.com/rigperro)
 * [Roosa Piitulainen](https://github.com/roosapi)
 * [Ruiyang Ding (丁瑞洋)](https://github.com/JohnDing1995)
 * [Saara Satokangas](https://github.com/saarasat)
 * [Sami Laine](https://github.com/Gehock)
 * Sami Sarsa
+* [Seppo Äyräväinen](https://github.com/sayravai)
 * Tanvi Jain
 * [Tapio Auvinen](https://github.com/tsauvine)
 * [Teemu Sirkiä](https://github.com/ttsirkia)
