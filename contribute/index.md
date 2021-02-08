@@ -97,5 +97,5 @@ Feel free to contribute to any of the following documentation resources.
 Your work has one of the biggest impacts to end-users.
 
 * [Our public facing documentation]({{ site.github.repository_url }}) (aka., this site)
-* ["How to make a course" course](https://github.com/apluslms/course-templates)
+* ["How to make a course" course](https://github.com/apluslms/aplus-manual)
 
