@@ -74,6 +74,7 @@ Are you fluent in multiple languages?
 Or even good in English and Finnish?
 By contributing your translations of the text in the user interfaces of A+ LMS, you can make it more pleasant for you to use, and every other person using it.
 If you are interested, be in touch in our chat!
+Our [list of frequently used translations](frequently_used_translations.rst) may be helpful when improving translations or when creating course content.
 
 
 ## Visual and Human Interface Design
