@@ -8,7 +8,7 @@ Idea is not to update fields that do not add any value and fields that are not r
   * The `.mo` files should be compiled by the packaging system and locally during development.
 
 * If no reason not to, use English string as message id (i.e. default string) and make translations for other languages (e.g. Finnish).  
-  **NOTE:** Separate message keys are used in the Django translations of the `a-plus` repository, and translations are written for English as well.
+  **NOTE:** Separate message keys are used in the Django translations of the [a-plus repository](https://github.com/apluslms/a-plus), and translations are written for English as well.
   See section [msdID format](#msgid-format) for more details.
 * Use translation tool, they format the file correctly.
   Or run a script which merges the `.po` files, which reformatting.
@@ -32,7 +32,7 @@ Idea is not to update fields that do not add any value and fields that are not r
 
 ### msgID format
 
-**NOTE:** This is currently in use only in the a-plus repository.
+**NOTE:** This is currently in use only in the [a-plus repository](https://github.com/apluslms/a-plus).
 
 In order to make editing strings displayed to users easier (and less likely to break things), rather than using the English string as the message id, a separate key is used as a message id.
 
