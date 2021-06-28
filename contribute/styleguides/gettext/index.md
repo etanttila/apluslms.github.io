@@ -30,7 +30,7 @@ The idea is not to update fields that do not add any value and fields that are n
 * Typical `makemessages` call:
 
   ```sh
-  ./manage.py makemessages --ignore='venv*/*' --no-obsolete --add-location file
+  ./manage.py makemessages --ignore='venv*/*' --no-obsolete --add-location file --all
   ```
 
 
