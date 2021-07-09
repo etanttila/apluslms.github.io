@@ -49,9 +49,9 @@ In order to make editing strings displayed to users easier (and less likely to b
     In the `.po` file, these strings will be marked as being in `python-brace-format`.
 
   ```html
-  {% blocktranslate trimmed with start=instance.enrollment_start end=instance.enrollment_end %}
+  {% raw %}{% blocktranslate trimmed with start=instance.enrollment_start end=instance.enrollment_end %}
     ENROLLMENT_OPEN_BETWEEN -- {{ start }}, {{ end }}
-  {% endblocktranslate %}
+  {% endblocktranslate %}{% endraw %}
   ```
 
   ```python
