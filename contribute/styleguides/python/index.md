@@ -333,12 +333,15 @@ if __name__ == '__main__':
 
 ## Quotes
 
-* use single quote (`'`) for keys and types (e.g. in dicts)
-* use double quote (`"`) for strings shown to the user
-* however, use single quote for strings shown to the user, if they contain
-  double quotes
-* except, when string contains both quotes, then use double quotes with
+In general, you may use single and double quotes in a way that comes naturally to you. This is because they don't
+really affect readability. However, these need to be followed, as they affect readability:
+* use single quote for strings if they contain double quotes and vice-versa
+* except, when string contains both quotes, then use quotes with
   escaping
+
+In case that you do not have a particular preference to quote usage or want instructions anyway, use the following:
+* double quote (`"`) for strings shown to the user
+* single quote (`'`) for everything else
 
 Example demonstrating proper use of quotes:
 
@@ -350,9 +353,6 @@ message3 = "mix of \" and ' quotes should be like this"
 message4 = "file '{filename}' was not found"
 message4 = "file {filename!r} was not found" # ok if filename is always a string
 ```
-
-Typically, if the string includes a space, then it's supposed to be shown to the user.
-Further, keys typically shouldn't include any space.
 
 ## String formatting
 
