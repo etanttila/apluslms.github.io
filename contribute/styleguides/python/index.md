@@ -83,8 +83,8 @@ with ExitStack() as stack:
 ```
 
 **Use space to help with perception**, i.e., blank lines should be used to group related parts and to distance separate ones.
-Surround top-level function and class definitions with **two** blank lines.
-Method definitions inside a class are surrounded by **a single** blank line.
+Separate top-level function and class definitions with **two** blank lines.
+Method definitions inside a class are separated by **a single** blank line.
 In addition, use a single blank line to add space between logical blocks of the code.
 See [Wikipedia/Principles of Grouping](https://en.wikipedia.org/wiki/Principles_of_grouping)) to understand why this is important.
 
