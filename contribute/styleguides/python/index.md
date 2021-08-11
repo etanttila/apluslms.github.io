@@ -26,11 +26,11 @@ For that, remember these good reasons to ignore a particular guideline:
 ## Indentation, line length, and blank lines
 
 Use **4 spaces** per indentation level.
-Try to limit lines to **79** characters, and don't exceed **99** characters.
+Try to limit lines to **79** characters, and don't exceed **119** characters.
 Furthermore, for long blocks of text (such as docstrings and comments), aim to keep the line length under **72** characters to make the text more readable for humans by limiting the column width.
 
 Split too long lines to multiple lines and indent appropriately, but don't do it needlessly.
-In addition, use a longer line (not exceeding 99 characters), if the code is more readable that way!
+In addition, use a longer line (not exceeding 119 characters), if the code is more readable that way!
 You can also use temporary variables to split longer lines to parts, which adds documentation too (in the form of variable names).
 
 **Try to keep `if` statements in a single line**, because there are no good ways to split them to multiple lines.
