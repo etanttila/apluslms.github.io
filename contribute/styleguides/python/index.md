@@ -283,12 +283,18 @@ total_cost = (
 
     [//]: # (TODO imports should be moved to it's own paragraph)
 
- 5. public helpers
- 6. public classes
- 7. private helpers
- 8. private classes
+ 5. private helpers
+ 6. private classes
+ 7. public helpers
+ 8. public classes
  9. module level initialisation (after a class, there can be edits to that specific class)
 10. the `if __name__ == '__main__'`
+
+Private members should be before public ones because it is a common style, and
+it is required for type hints to work without future import pre 3.10.
+
+In addition, private classes and functions only used by a single class or
+function should be grouped with the class or function in question.
 
 ```python
 """
@@ -310,6 +316,10 @@ from webshop.models import Shop
 from .utils import helper
 
 
+def _split(str):
+    return str.splitlines()
+
+
 def parse_input(str):
     return Parser(str).parse()
 
@@ -322,8 +332,14 @@ class Parse:
         return _split(str)
 
 
-def _split(str):
-    return str.splitlines()
+# a function specific to ClassA
+def _helper(...):
+    ...
+
+
+class ClassA:
+    def __init__(self):
+        _helper(...)
 
 
 if __name__ == '__main__':
