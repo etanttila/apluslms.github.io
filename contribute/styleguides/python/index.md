@@ -359,7 +359,7 @@ message4 = "file {filename!r} was not found" # ok if filename is always a string
 If the project may require python 3.6, then f-string ([PEP 498](https://www.python.org/dev/peps/pep-0498/)) can be used.
 However, if the string uses translations, then formatting must be done after translation lookup, thus f-string is not an option.
 
-Typically, the code should prefer format method.
+Typically, the code should prefer f-string due to them being more concise and readable.
 Remember, when using lazily evaluated strings, then the formatting should be lazy too.
 For example, django `gettext` returns a lazy object, hence `format_lazy` should be used with it.
 
