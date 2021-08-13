@@ -291,7 +291,7 @@ total_cost = (
 10. the `if __name__ == '__main__'`
 
 Private members should be before public ones because it is a common style, and
-it is required for type hints to work without future import pre 3.10.
+it is required for type hints to work without future import pre python 3.10.
 
 In addition, private classes and functions only used by a single class or
 function should be grouped with the class or function in question.
