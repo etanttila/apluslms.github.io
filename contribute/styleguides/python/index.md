@@ -26,11 +26,11 @@ For that, remember these good reasons to ignore a particular guideline:
 ## Indentation, line length, and blank lines
 
 Use **4 spaces** per indentation level.
-Try to limit lines to **79** characters, and don't exceed **99** characters.
+Try to limit lines to **79** characters, and don't exceed **119** characters.
 Furthermore, for long blocks of text (such as docstrings and comments), aim to keep the line length under **72** characters to make the text more readable for humans by limiting the column width.
 
 Split too long lines to multiple lines and indent appropriately, but don't do it needlessly.
-In addition, use a longer line (not exceeding 99 characters), if the code is more readable that way!
+In addition, use a longer line (not exceeding 119 characters), if the code is more readable that way!
 You can also use temporary variables to split longer lines to parts, which adds documentation too (in the form of variable names).
 
 **Try to keep `if` statements in a single line**, because there are no good ways to split them to multiple lines.
@@ -83,8 +83,8 @@ with ExitStack() as stack:
 ```
 
 **Use space to help with perception**, i.e., blank lines should be used to group related parts and to distance separate ones.
-Surround top-level function and class definitions with **two** blank lines.
-Method definitions inside a class are surrounded by **a single** blank line.
+Separate top-level function and class definitions with **two** blank lines.
+Method definitions inside a class are separated by **a single** blank line.
 In addition, use a single blank line to add space between logical blocks of the code.
 See [Wikipedia/Principles of Grouping](https://en.wikipedia.org/wiki/Principles_of_grouping)) to understand why this is important.
 
@@ -283,12 +283,18 @@ total_cost = (
 
     [//]: # (TODO imports should be moved to it's own paragraph)
 
- 5. public helpers
- 6. public classes
- 7. private helpers
- 8. private classes
+ 5. private helpers
+ 6. private classes
+ 7. public helpers
+ 8. public classes
  9. module level initialisation (after a class, there can be edits to that specific class)
 10. the `if __name__ == '__main__'`
+
+Private members should be before public ones because it is a common style, and
+it is required for type hints to work without future import pre python 3.10.
+
+In addition, private classes and functions only used by a single class or
+function should be grouped with the class or function in question.
 
 ```python
 """
@@ -310,6 +316,10 @@ from webshop.models import Shop
 from .utils import helper
 
 
+def _split(str):
+    return str.splitlines()
+
+
 def parse_input(str):
     return Parser(str).parse()
 
@@ -322,8 +332,14 @@ class Parse:
         return _split(str)
 
 
-def _split(str):
-    return str.splitlines()
+# a function specific to ClassA
+def _helper(...):
+    ...
+
+
+class ClassA:
+    def __init__(self):
+        _helper(...)
 
 
 if __name__ == '__main__':
@@ -333,12 +349,15 @@ if __name__ == '__main__':
 
 ## Quotes
 
-* use single quote (`'`) for keys and types (e.g. in dicts)
-* use double quote (`"`) for strings shown to the user
-* however, use single quote for strings shown to the user, if they contain
-  double quotes
-* except, when string contains both quotes, then use double quotes with
+In general, you may use single and double quotes in a way that comes naturally to you. This is because they don't
+really affect readability. However, these need to be followed, as they affect readability:
+* use single quote for strings if they contain double quotes and vice-versa
+* except, when string contains both quotes, then use quotes with
   escaping
+
+In case that you do not have a particular preference to quote usage or want instructions anyway, use the following:
+* double quote (`"`) for strings shown to the user
+* single quote (`'`) for everything else
 
 Example demonstrating proper use of quotes:
 
@@ -351,15 +370,12 @@ message4 = "file '{filename}' was not found"
 message4 = "file {filename!r} was not found" # ok if filename is always a string
 ```
 
-Typically, if the string includes a space, then it's supposed to be shown to the user.
-Further, keys typically shouldn't include any space.
-
 ## String formatting
 
 If the project may require python 3.6, then f-string ([PEP 498](https://www.python.org/dev/peps/pep-0498/)) can be used.
 However, if the string uses translations, then formatting must be done after translation lookup, thus f-string is not an option.
 
-Typically, the code should prefer format method.
+Typically, the code should prefer f-string due to them being more concise and readable.
 Remember, when using lazily evaluated strings, then the formatting should be lazy too.
 For example, django `gettext` returns a lazy object, hence `format_lazy` should be used with it.
 
