@@ -9,7 +9,7 @@ The idea is not to update fields that do not add any value and fields that are n
 
 * **What the message ID should be:**
 
-  * In the [a-plus repository](https://github.com/apluslms/a-plus), separate message keys are used in the Django translations.
+  * In the [a-plus](https://github.com/apluslms/a-plus) and [mooc-grader](https://github.com/apluslms/mooc-grader) repositories, separate message keys are used in the Django translations.
     Translations are written for each language (including English) in the corresponding `.po` files.
     See section [msdID format](#msgid-format) for more details.
   * In other repositories (at least at the moment), use the English string as the message ID (i.e. default string) and make translations for other languages (e.g. Finnish).
@@ -36,7 +36,7 @@ The idea is not to update fields that do not add any value and fields that are n
 
 ### msgID format
 
-**NOTE:** This is currently in use only in the [a-plus repository](https://github.com/apluslms/a-plus).
+**NOTE:** This is currently in use only in the [a-plus](https://github.com/apluslms/a-plus) and [mooc-grader](https://github.com/apluslms/mooc-grader) repositories.
 
 In order to make editing strings displayed to users easier (and less likely to break things), rather than using the English string as the message ID, a separate key is used as a message ID.
 
