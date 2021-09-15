@@ -32,6 +32,8 @@ but it works for other subjects too.
 
 ### Events
 
+* [2021-08-20 A+ summer webinar](events/2021-summer/)
+* [2021-06-04 A+ development webinar](events/2021-spring-development/)
 * [2021-01-15 A+ development webinar](events/2021-development/)
 * [2020-08-19 End of summer webinar in Aalto](events/2020-end-of-summer-in-aalto/)
 * [2020-05-29 Spring webinar in Aalto](events/2020-spring-in-aalto/)
