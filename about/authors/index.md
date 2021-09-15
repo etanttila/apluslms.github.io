@@ -22,7 +22,6 @@ Currently the project is spearheaded by:
 
 Other core team members:
 
-* [Jhosimar Aguacia](https://github.com/jaguarfi), System Designer, Developer & Support Specialist (from February 2020 onwards)
 * [Anni Rytkönen](https://github.com/annirytkonen), Staff Scientist & Team Leader (from October 2019 onwards)
 
 Past project heads:
@@ -30,6 +29,10 @@ Past project heads:
 * [Jaakko Kantojärvi](https://github.com/raphendyr)
 * [Teemu Lehtinen](https://github.com/teemulehtinen)
 * [Teemu Havulinna (Teemu Koskinen)](https://github.com/havulinna)
+
+Past core team members:
+
+* [Jhosimar Aguacia](https://github.com/jaguarfi), System Designer, Developer & Support Specialist
 
 ## In addition, the following people have contributed to the project:
 
@@ -40,6 +43,8 @@ Past project heads:
 * AM Helin
 * Aaro Korhonen
 * Aku Niskanen
+* Aleksi Järventausta
+* [Alexander Hugh](https://github.com/Supercraft888)
 * Antti Tikka
 * [Ari Korhonen](https://github.com/arikorhonen)
 * [Artturi Tilanterä](https://github.com/atilante)
@@ -51,14 +56,18 @@ Past project heads:
 * Henrik Milan
 * [Henrik Sundell](https://github.com/HenrikSundell)
 * [Jan-Mikael Rybicki](https://github.com/janmikaelr)
+* Jimmy Ihalainen
 * Jingzhou Ou
 * [Jonas Berg](https://github.com/MrBerg)
 * [Joonatan Partanen](https://github.com/jparta)
 * Juha Sorva
+* [Juho Pekkinen](https://github.com/motonki)
 * [Juho Rinta-Paavola](https://github.com/jrp6)
+* [Juho Toivonen](https://github.com/Jetch)
 * [Juuso Vuorenmaa](https://github.com/zunde)
 * [Kasper Hellström](https://github.com/X455u)
 * [Kha](https://github.com/nlhkh)
+* [L. Kärkkäinen](https://github.com/Tronic)
 * Lassi Haaranen
 * Markus Murhu
 * [Martin Quinson](https://github.com/mquinson)
@@ -81,7 +90,8 @@ Past project heads:
 * [Ruiyang Ding (丁瑞洋)](https://github.com/JohnDing1995)
 * [Saara Satokangas](https://github.com/saarasat)
 * [Sami Laine](https://github.com/Gehock)
-* Sami Sarsa
+* [Sami Sarsa](https://github.com/taikamurmeli)
+* Sampo Kulonen
 * [Seppo Äyräväinen](https://github.com/sayravai)
 * Tanvi Jain
 * [Tapio Auvinen](https://github.com/tsauvine)
@@ -89,10 +99,12 @@ Past project heads:
 * Timi Seppälä
 * Tommi Junttila
 * [Tommy Johansson](https://github.com/polyure)
+* [Tuomas Laine](https://github.com/lainets)
+* Valtteri Lipiäinen
 * [Veera Alt](https://github.com/veeraalt)
 * [Vesa Ala-Laurinaho](https://github.com/alalav1)
 * [Ville Karavirta](https://github.com/vkaravir)
-* Ville Vironmäki
+* Ville V
 
 [end-of-contributors]: # (End of automatically updated list)
 

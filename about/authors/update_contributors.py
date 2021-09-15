@@ -62,6 +62,13 @@ IGNORED_DOMAINS = {
     'org.aalto.fi',
 }
 
+IGNORED_REPOS_BY_ORG = {
+    'apluslms': [
+        # a modified fork of a library that has many contributors who have no connection to A+ LMS
+        'drf-extensions',
+    ],
+}
+
 REALNAMES = {
     'Qianqian Qin': '覃茜茜',
     'Ruiyang Ding': '丁瑞洋',
@@ -104,6 +111,8 @@ class Github:
         if not isinstance(obj, dict):
             raise ValueError(f"`obj` is not type of a dict: {obj}")
         if obj['type'] == 'Anonymous':
+            # Anonymous: email is not connected to any GitHub account, i.e.,
+            # the user's profile does not include this email.
             if obj['email'] in emails_to_github_users:
                 login = emails_to_github_users[obj['email']]
                 obj['url'] = f"{self.API}/users/{login}"
@@ -172,7 +181,9 @@ class Github:
         # all repositories are fetched.
         # https://docs.github.com/en/rest/reference/repos#list-organization-repositories
         url = f'{self.API}/orgs/{org}/repos?per_page=100'
-        return [repo['full_name'] for repo in self.session.get(url).json()]
+        ignored_repos = IGNORED_REPOS_BY_ORG[org]
+        return [repo['full_name'] for repo in self.session.get(url).json()
+                if repo['name'] not in ignored_repos]
 
 
 gh = Github(token=github_token)
