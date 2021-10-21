@@ -30,6 +30,7 @@ So, yearly cycle:
   * A+ v1.11
   * MOOC-Grader v1.10.3 (no major changes since v1.10)
   * a-plus-rst-tools v1.4.2 (new options for the new delayed feedback A+ feature)
+  * [Release notes](v1_11.md)
 * August 2021: suopursu
   * A+ v1.10
   * MOOC-Grader v1.10
