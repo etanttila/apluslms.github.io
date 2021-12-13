@@ -26,7 +26,12 @@ So, yearly cycle:
 
 ## Releases
 
-* October 2021: tervaleppä [current]
+* December 2021: uuvana [current]
+  * A+ v1.12
+  * MOOC-Grader v1.12
+  * a-plus-rst-tools v1.4.4
+  * [Release notes](v1_12.md)
+* October 2021: tervaleppä
   * A+ v1.11
   * MOOC-Grader v1.10.3 (no major changes since v1.10)
   * a-plus-rst-tools v1.4.2 (new options for the new delayed feedback A+ feature)
