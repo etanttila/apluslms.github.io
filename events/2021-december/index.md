@@ -4,7 +4,7 @@
 
 Recorded presentations are available in
 [Panopto](https://aalto.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=53f1b55a-0cb3-4c71-8302-abbf00c1a6d2)
-([playlist of all presentations LINK TO BE ADDED](https://aalto.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=53f1b55a-0cb3-4c71-8302-abbf00c1a6d2)).  
+([playlist of all presentations](https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?pid=2c544305-2f94-4fd3-9ab5-adf800b6c17f)).  
 [Wiki page](https://wiki.aalto.fi/display/EDIT/Aplus+development+webinar+December+2021).
 
 The webinar focused on autumn 2021 projects in the EDIT team (Aalto University).
