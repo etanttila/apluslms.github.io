@@ -9,6 +9,9 @@ services that communicate with each other. The responsibilities are
 divided using interfaces so that the different services and modules
 can be individually changed and redesigned.
 
+This page is a bit outdated. We have a new overview in the
+[A-plus Manual](https://plus.cs.aalto.fi/aplus-manual/master/overview/overview/).
+
 ### Presentations
 
 You can read or use the brief [presentation slide set](/architecture/presentation/),
