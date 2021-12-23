@@ -31,8 +31,6 @@ The [release schedule](/releases/#release-schedule) applies to these.
   Can run grading code provided by the course staff in Docker containers.
   This enables diverse possibilities, including grading a small Python program or an Android mobile application, for example.
 
-  Currently, this service also handles course building and configuration for itself and A+ portal.
-
 * [a-plus-rst-tools](https://github.com/apluslms/a-plus-rst-tools/)
 
   Set of Sphinx extensions for creating interactive course materials with reStructuredText markup (RST).
@@ -40,6 +38,13 @@ The [release schedule](/releases/#release-schedule) applies to these.
 ## Common
 
 Some commonly used assessment and support services.
+
+* [Git Manager](https://github.com/apluslms/gitmanager/)
+
+  New service for course building and configuration in [A+ v1.12](../releases/v1_12.md).
+  Git manager builds the course materials in a Docker container
+  and forwards the configurations to the other services (A+ portal and MOOC Grader).
+  The build container may be configured so that each course can install the frameworks needed for building the course.
 
 * [MOOC Jutut](https://github.com/apluslms/mooc-jutut/)
 
