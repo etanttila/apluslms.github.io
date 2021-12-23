@@ -5,8 +5,8 @@ nav-weight: 7
 # Components
 
 Only a few services are [core](#core) components for any A+ LMS installation.
-[Common](#common) components listed here are often found from well featured installations,
-but they vary depending on needs of the organization.
+[Common](#common) components listed here are often included in installations,
+but they vary depending on the needs of the organization.
 Lastly, there are some commonly used [utilities](#utilities), which are separate from A+, but often used with it.
 
 Remember that this is not a complete list and organizations have custom assessment services and tools for particular needs.
@@ -18,24 +18,24 @@ The [release schedule](/releases/#release-schedule) applies to these.
 
 * [A+ portal](https://github.com/apluslms/a-plus/)
 
-  The user facing web portal.
-  Contains course definitions, retrieves course material and exercises, presents them to the user and records points and grades.
+  The user-facing web portal.
+  Contains course definitions, retrieves course materials and assignments, presents them to the user and records submissions and grades in the database.
   Basically, it's the user interface and the data storage.
 
   It's possible to have similar, but limited, features in Moodle using the plugin [mod_astra](https://github.com/apluslms/moodle-mod_astra/).
 
 * [MOOC Grader](https://github.com/apluslms/mooc-grader/)
 
-  An automatic assessment framework.
-  Can provide multiple different exercise types including questionnaires and programming exercises.
-  Can run assessment code provided by course staff in docker containers.
-  This enables diverse possibilities including assessment of a small python program or an android application for example.
+  Automatic grading framework.
+  Can provide multiple different assignment types including questionnaires and programming assignments.
+  Can run grading code provided by the course staff in Docker containers.
+  This enables diverse possibilities, including grading a small Python program or an Android mobile application, for example.
 
   Currently, this service also handles course building and configuration for itself and A+ portal.
 
 * [a-plus-rst-tools](https://github.com/apluslms/a-plus-rst-tools/)
 
-  Set of Sphinx extensions for creating interactive course material with RST.
+  Set of Sphinx extensions for creating interactive course materials with reStructuredText markup (RST).
 
 ## Common
 
@@ -113,7 +113,7 @@ Utility services that are often helpful.
 
 * [Presentation maker](https://github.com/apluslms/presentation-maker/)
 
-  Create presentations from point-of-interests within A+ course materials.
+  (Deprecated tool.) Create presentations from point-of-interests within A+ course materials.
 
 * [Grading base container](https://github.com/apluslms/grading-base/)
 
