@@ -80,7 +80,7 @@ Utility services that are often helpful.
 
   Extension to the VS Code editor.
   This eases the development of A+ courses and the writing of learning materials in RST.
-  Released in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jaguarfi.aplus-tools).
+  Released in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=apluslms.aplus-tools-official).
 
 * [Neuvontajono](https://github.com/ttsirkia/neuvontajono/)
 
