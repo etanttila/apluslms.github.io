@@ -26,76 +26,56 @@ So, yearly cycle:
 
 ## Releases
 
-* February 2022: vaivero
+* February 2022: A+ v1.13
   * A+ v1.13
   * MOOC-Grader v1.13
   * Git Manager v1.13
   * a-plus-rst-tools v1.5.0
   * [Release notes](v1_13.md)
-* December 2021: uuvana
+* December 2021: A+ v1.12
   * A+ v1.12
   * MOOC-Grader v1.12
   * a-plus-rst-tools v1.4.4
   * [Release notes](v1_12.md)
-* October 2021: tervaleppä
+* October 2021: A+ v1.11
   * A+ v1.11
   * MOOC-Grader v1.10.3 (no major changes since v1.10)
   * a-plus-rst-tools v1.4.2 (new options for the new delayed feedback A+ feature)
   * [Release notes](v1_11.md)
-* August 2021: suopursu
+* August 2021: A+ v1.10
   * A+ v1.10
   * MOOC-Grader v1.10
   * a-plus-rst-tools v1.4
   * [Release notes](v1_10.md)
-* June 2021: röyhysyreeni
+* June 2021: A+ v1.9
   * A+ v1.9
   * MOOC-Grader v1.9
   * a-plus-rst-tools v1.4
   * [Release notes](v1_9.md)
-* January 2021: pallohortensia
+* January 2021: A+ v1.8
   * A+ v1.8
   * MOOC-Grader v1.8
   * a-plus-rst-tools v1.3
   * [Release notes](v1_8.md)
-* June 2020: okakuusi
+* June 2020: A+ v1.7
   * A+ v1.7
   * MOOC-Grader v1.7
   * a-plus-rst-tools v1.2
   * [Release notes](https://wiki.aalto.fi/display/EDIT/Aplus+Service+break+summer+2020)
-* January 2020: nuokkukuusama
+* January 2020: A+ v1.6
   * A+ v1.6
   * MOOC-Grader v1.6
   * a-plus-rst-tools (tagging the release was postponed)
   * [Release notes](https://wiki.aalto.fi/pages/viewpage.action?pageId=163022321)
-* August 2019: mahonia
+* August 2019: A+ v1.5
   * A+ v1.5
   * MOOC-Grader v1.5
   * a-plus-rst-tools v1.1
-* January 2019: liekovarpio
+* January 2019: A+ v1.4
   * A+ v1.4
   * MOOC-Grader v1.4
   * a-plus-rst-tools v1.0
-* August 2018: kirjovihma
+* August 2018: A+ v1.3
   * A+ v1.3
   * MOOC-Grader v1.3
 
-{% comment %}
-List of some interesting names:
-
-ahopaju, alppikärhö
-härmäpaju, höyhenpensas
-jänönvihma, jättipoppeli, juolukka
-kirjovihma | kaljukultasade. kanerva, korkkipihta, kyynelkoivu
-liekovarpio | lapinalppiruusu, lakkipuu, lehtojalava, lumikellopuu
-mahonia | mammuttipetäjä, mukuraleppä, maakkia, metsälehmus, morsiusangervo, mustuvapaju
-nuokkukuusama | näsiä, neidonhiuspuu, napapaju, neitoangervo, nikonpihta, nuokkusyreeni
-okakuusi. outapaju
-pallohortensia, pensashanhikki, pirunnuija, pohjanpaju, punapaju
-röyhysyreeni
-suopursu, surukuusi
-tervaleppä, tuivio, tulikuusama, tapionpöytä
-uuvana
-vaivero, vanamo, viitaheisi
-
-Source: http://www.metla.fi/metinfo/puulajit/puulajit-nimet.htm
-{% endcomment %}
