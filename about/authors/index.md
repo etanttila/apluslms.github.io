@@ -53,6 +53,7 @@ Past core team members:
 * [Ella Anttila](https://github.com/etanttila)
 * [Emma Ahonen](https://github.com/madaian)
 * [Emma Honkamaa](https://github.com/ematan)
+* Henri Huusko
 * Henrik Milan
 * [Henrik Sundell](https://github.com/HenrikSundell)
 * [Jan-Mikael Rybicki](https://github.com/janmikaelr)
@@ -77,7 +78,7 @@ Past core team members:
 * Märt Vesinurm
 * Neea Tuomainen
 * Niklas Kröger
-* [Oscar Smedjebacka](https://github.com/Osccu)
+* [Osccu](https://github.com/Osccu)
 * Otto Seppälä
 * Panu Erästö
 * [Petri Ihantola](https://github.com/ihantola)
@@ -105,6 +106,8 @@ Past core team members:
 * [Vesa Ala-Laurinaho](https://github.com/alalav1)
 * [Ville Karavirta](https://github.com/vkaravir)
 * Ville V
+* Yusein Ali
+* [muhammadfaiz12](https://github.com/muhammadfaiz12)
 
 [end-of-contributors]: # (End of automatically updated list)
 
