@@ -26,7 +26,13 @@ So, yearly cycle:
 
 ## Releases
 
-* December 2021: uuvana [current]
+* February 2022: vaivero
+  * A+ v1.13
+  * MOOC-Grader v1.13
+  * Git Manager v1.13
+  * a-plus-rst-tools v1.5.0
+  * [Release notes](v1_13.md)
+* December 2021: uuvana
   * A+ v1.12
   * MOOC-Grader v1.12
   * a-plus-rst-tools v1.4.4
