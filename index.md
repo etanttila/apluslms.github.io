@@ -25,6 +25,12 @@ but it works for other subjects too.
 * [A+ Accessibility and Inclusive Design Audit](https://apluslms.github.io/accessibility-audit/): report on accessibility issues.
 * [Releases](releases/): description about the release schedule and a list of latest releases.
 
+## Recent releases
+
+* February 2022 [A+ v1.13](releases/v1_13.md)
+* January 2022 [A+ v1.12](releases/v1_12.md)
+* [All releases](releases/)
+
 ## Get involved
 
 [You are welcome to get involved](contribute/) in making the education of tomorrow better for all and become part of our growing list of [authors](about/authors/)!
