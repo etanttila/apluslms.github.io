@@ -35,7 +35,8 @@ So, yearly cycle:
 * December 2021: A+ v1.12
   * A+ v1.12
   * MOOC-Grader v1.12
-  * a-plus-rst-tools v1.4.4
+  * Git Manager v1.12
+  * a-plus-rst-tools v1.4.3
   * [Release notes](v1_12.md)
 * October 2021: A+ v1.11
   * A+ v1.11
