@@ -1,5 +1,8 @@
 # GNU Gettext Translations
 
+When choosing the words to use for common topics,
+pay attention to the list of [frequently used translations](../../frequently_used_translations.md).
+
 The goal with following the rules is to lower the amount of problems when working with git.
 The idea is not to update fields that do not add any value and fields that are not relevant for the change in a commit.
 
@@ -15,7 +18,7 @@ The idea is not to update fields that do not add any value and fields that are n
   * In other repositories (at least at the moment), use the English string as the message ID (i.e. default string) and make translations for other languages (e.g. Finnish).
 
 * Use a translation tool, they format the file correctly.
-  Or run a script which merges the `.po` files, which reformatting.
+  Or run a script which merges the `.po` files and formats them correctly.
 * Do not add line numbers, but add filenames, as it makes simple changes in the git.
   This can be done with the `--add-location=file` option in most gettext tools.
 * No need to set or update meta headers at the top of a `.po` file, as those details are typically available from the git.
