@@ -24,6 +24,7 @@ showcases consistent, robust and accessible components and styles for building i
   * indent: **tab**
   * identifier names: variables `$brand-success` and `--brand-success`, classes use [BEM](http://getbem.com/)
 * (GNU) [gettext](gettext/) translations
+  * [Frequently used translations](../frequently_used_translations.md)
 * [HTML](html/)
   * indent: **tab**
 * JavaScript
