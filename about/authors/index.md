@@ -60,6 +60,7 @@ Past core team members:
 * Jimmy Ihalainen
 * Jingzhou Ou
 * [Jonas Berg](https://github.com/MrBerg)
+* [Joni Toivonen](https://github.com/joni-toivonen)
 * [Joonatan Partanen](https://github.com/jparta)
 * Juha Sorva
 * [Juho Pekkinen](https://github.com/motonki)
@@ -75,6 +76,7 @@ Past core team members:
 * [Matias Lindgren](https://github.com/matiaslindgren)
 * [Matthew Higgins](https://github.com/mtthwhggns)
 * [Miki Tolonen](https://github.com/splyysh)
+* Muhammad Wahjoe
 * Märt Vesinurm
 * Neea Tuomainen
 * Niklas Kröger
@@ -107,7 +109,6 @@ Past core team members:
 * [Ville Karavirta](https://github.com/vkaravir)
 * Ville V
 * Yusein Ali
-* [muhammadfaiz12](https://github.com/muhammadfaiz12)
 
 [end-of-contributors]: # (End of automatically updated list)
 
