@@ -14,8 +14,10 @@ The event focused on the A+ v1.14 release.
   - GitHub issues in the release: https://github.com/apluslms/a-plus/milestone/10
   - Service break at Aalto University: https://wiki.aalto.fi/display/EDIT/Aplus+version+1.14%3A+April+2022
 * Demo: Self-service for teachers &mdash; Creating a new A+ course instance with the Git Manager backend / Jimmy Ihalainen, EDIT
+  - [recording](https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c65fa197-d82a-4732-9503-ae710064f733)
 * Demo: Approval of late and unofficial submissions / Muhammad Wahjoe, EDIT
+  - [recording](https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=21bcbc4b-184b-4e60-a173-ae700110c1a3)
 * Results from the A+ user feedback survey: [Teacher needs spring 2022](https://wiki.aalto.fi/display/EDIT/Teacher+needs+spring+2022)
 * Prioritized development topics for late spring and summer 2022
-  - (Aplus spring 2022)[https://wiki.aalto.fi/display/EDIT/Aplus+spring+2022]
-  - (Aplus summer and autumn 2022)[https://wiki.aalto.fi/display/EDIT/Aplus+summer+and+autumn+2022]
+  - [Aplus spring 2022](https://wiki.aalto.fi/display/EDIT/Aplus+spring+2022)
+  - [Aplus summer and autumn 2022](https://wiki.aalto.fi/display/EDIT/Aplus+summer+and+autumn+2022)
