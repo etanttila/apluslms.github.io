@@ -38,6 +38,7 @@ but it works for other subjects too.
 
 ### Events
 
+* [2022-04-08 A+ April meet](events/2022-april/)
 * [2022-02-11 A+ mid-spring meet](events/2022-february/)
 * [2021-12-08 A+ development webinar](events/2021-december/)
 * [2021-08-20 A+ summer webinar](events/2021-summer/)
