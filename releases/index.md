@@ -26,6 +26,12 @@ So, yearly cycle:
 
 ## Releases
 
+* June 2022: A+ v1.15
+  * A+ v1.15
+  * MOOC-Grader v1.15
+  * Git Manager v1.15
+  * a-plus-rst-tools v1.5.0
+  * [Release notes](v1_15.md)
 * April 2022: A+ v1.14
   * A+ v1.14
   * MOOC-Grader v1.14 (no changes since v1.13)
