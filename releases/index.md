@@ -26,6 +26,12 @@ So, yearly cycle:
 
 ## Releases
 
+* January 2023: A+ v1.18
+  * A+ v1.18
+  * MOOC-Grader: no changes since MOOC-Grader v1.16.2 or v1.17.1
+  * Git Manager: no changes since Git Manager v1.17.2
+  * a-plus-rst-tools v1.5.2
+  * [Release notes](v1_18.md)
 * November 2022: A+ v1.17
   * A+ v1.17
   * MOOC-Grader v1.17 (No changes since MOOC-Grader v1.16.1)
