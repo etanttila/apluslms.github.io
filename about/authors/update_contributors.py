@@ -133,6 +133,8 @@ class Github:
             user = dict(obj)
             user.update(self.session.get(obj['url']).json())
             self.users[login] = user
+            if user.get('name'):
+                user.pop('_anon_', None)
         else:
             user = self.users[login]
         # add names for those, that don't have one... TODO: probably should ask about this
@@ -164,6 +166,10 @@ class Github:
         while url:
             print(f" -> {url}")
             r = self.session.get(url)
+            if r.status_code == 204:
+                # no response body
+                break
+
             data = r.json()
             if isinstance(data, dict):
                 raise ValueError(f"API ERROR: {data.get('message') or data}")
