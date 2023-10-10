@@ -42,17 +42,20 @@ Past core team members:
 
 * AM Helin
 * Aaro Korhonen
-* Aku Niskanen
+* [Aku Niskanen](https://github.com/Donaldi3)
 * Aleksi Järventausta
 * [Alexander Hugh](https://github.com/Supercraft888)
 * Antti Tikka
 * [Ari Korhonen](https://github.com/arikorhonen)
 * [Artturi Tilanterä](https://github.com/atilante)
-* [Ats Nisov](https://github.com/Rubinous)
+* [Ats Nisov](https://github.com/atsnisov)
+* Eerik Saksi
 * Eliisa Vakeva
 * [Ella Anttila](https://github.com/etanttila)
 * [Emma Ahonen](https://github.com/madaian)
 * [Emma Honkamaa](https://github.com/ematan)
+* [Georgy Ananov](https://github.com/Corgi239)
+* [Hannes Fant](https://github.com/hannesfant)
 * Henri Huusko
 * Henrik Milan
 * [Henrik Sundell](https://github.com/HenrikSundell)
@@ -68,16 +71,18 @@ Past core team members:
 * [Juho Toivonen](https://github.com/Jetch)
 * [Juuso Vuorenmaa](https://github.com/zunde)
 * [Kasper Hellström](https://github.com/X455u)
-* [Kha](https://github.com/nlhkh)
+* [Kha](https://github.com/khanetor)
 * [L. Kärkkäinen](https://github.com/Tronic)
 * Lassi Haaranen
+* [MSTEWARDSON](https://github.com/MSTEWARDSON)
 * Markus Murhu
 * [Martin Quinson](https://github.com/mquinson)
-* [Matias Lindgren](https://github.com/matiaslindgren)
+* Matias Lindgren
 * [Matthew Higgins](https://github.com/mtthwhggns)
+* Mikael Lenander
 * [Miki Tolonen](https://github.com/splyysh)
 * Muhammad Wahjoe
-* Märt Vesinurm
+* [Märt Vesinurm](https://github.com/MartVesinurm)
 * Neea Tuomainen
 * Niklas Kröger
 * [Osccu](https://github.com/Osccu)
@@ -107,7 +112,7 @@ Past core team members:
 * [Veera Alt](https://github.com/veeraalt)
 * [Vesa Ala-Laurinaho](https://github.com/alalav1)
 * [Ville Karavirta](https://github.com/vkaravir)
-* Ville V
+* [Ville V](https://github.com/Vilz92)
 * Yusein Ali
 
 [end-of-contributors]: # (End of automatically updated list)
