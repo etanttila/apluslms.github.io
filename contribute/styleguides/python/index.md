@@ -104,6 +104,7 @@ Example demonstrating whitespace and comments:
 ```python
 import logging
 from sys import environ
+from typing import Any, Optional
 
 import django
 from django.conf import settings
@@ -115,10 +116,10 @@ logger = logging.getLogger(__name__)
 # In place like this, you could use a comment, without extra space below.
 foo = lambda x: x*x
 bar = lambda x: s.strip()
-baz = kambda x: x+2
+baz = lambda x: x+2
 
 
-def helper(x):
+def helper(x: Any) -> object:
     return x
 
 
@@ -129,10 +130,10 @@ def helper(x):
 class MainClass:
     """A class documentation
     """
-    def __init__(self):
+    def __init__(self) -> None:
         pass
 
-    def method(self, a):
+    def method(self, a: int) -> int:
         # NOTE: hack() fixes a rendering issue
         return foo(a) if hack() else baz(a)
 
@@ -140,6 +141,40 @@ class MainClass:
 if __name__ == '__main__':
     MainClass().method(3)
 ```
+
+## Use type hints
+
+Use Python type hinting in all functions and methods that you add or edit.
+Provide type hints for function parameters and return values.
+Python has comprehensive documentation for the use of type hints in [PEP 484 – Type Hints](https://peps.python.org/pep-0484/).
+
+Since Python 3.9, the builtin `list`, `dict`, `tuple` and `set` can be used as types instead of having to import respective types from the [`typing`](https://docs.python.org/3/library/typing.html) module.
+It is recommended to use the builtin types; provide the element types when possible:
+
+* For tuples, list all the element types, e.g.
+  ```python
+  def test() -> tuple[int, int, str]:
+    return (1, 2, 'b')
+  ```
+    * See the [annotating tuples](https://docs.python.org/3/library/typing.html#annotating-tuples) section of the typing module documentation for how to annotate tuples of any length.
+* `dict[key_type, value_type]`, e.g.
+  ```python
+  def sums(d: dict[str, list[int]]) -> dict[str, int]:
+      return {k: sum(v) for k, v in d.items()}
+  ```
+* `list[element_type]`, e.g.
+  ```python
+  def with_lengths(l: list[Any] -> list[tuple[Any, int]]:
+      return [(s, len(s)) for s in l]
+  ```
+* `set[element_type]`, e.g.
+  ```python
+  def chars(s: str) -> set[str]:
+      return set(s)
+  ```
+
+For more information about type hinting, read the [Python docs](https://docs.python.org/3/library/typing.html).
+
 
 ## One line per item
 
@@ -172,11 +207,11 @@ result = bar(
 
 # when defining functions (note the extra indent)
 def foobar(
-        argument1,
-        argument2,
-        keyword1=None,
-        keyword2=None, # remember the comma
-        ): # here this seems to be part of the arguments, which is good
+        argument1: int,
+        argument2: str,
+        keyword1=None: Optional[dict],
+        keyword2=None: Any, # remember the comma
+        ) -> None: # here this seems to be part of the arguments, which is good
     if keyword1 is None:
         # not a style thing, but set defaults in the function
         keyword1 = {}
@@ -222,7 +257,7 @@ To ensure the readability, try keeping the arguments in the following order:
 
 ```python
 def SomeClass:
-    def method(self, parser):
+    def method(self, parser: ArgumentParser) -> None:
         # The following line is few characters too long, but it's often
         # better than the alternative
         parser.add_argument('-s', '--sum', dest='accumulate', action='store_const',
@@ -308,6 +343,7 @@ __version__ = '1.0'
 import os.path
 import sys
 from collections import OrderedDict
+from typing import Any
 
 import hanks_cool_lib
 from django.conf import settings
@@ -316,29 +352,29 @@ from webshop.models import Shop
 from .utils import helper
 
 
-def _split(str):
-    return str.splitlines()
+def _split(s: str) -> list[str]:
+    return s.splitlines()
 
 
-def parse_input(str):
-    return Parser(str).parse()
+def parse_input(s: str) -> list[str]:
+    return Parser(s).parse()
 
 
-class Parse:
-    def __init__(self, input):
+class Parser:
+    def __init__(self, input) -> None:
         self._input = input
 
-    def parse(self):
-        return _split(str)
+    def parse(self) -> list[str]:
+        return _split(self._input)
 
 
 # a function specific to ClassA
-def _helper(...):
+def _helper(...) -> Any:
     ...
 
 
 class ClassA:
-    def __init__(self):
+    def __init__(self) -> None:
         _helper(...)
 
 
@@ -450,6 +486,7 @@ def function(arg1, arg2, arg3=None, *, arg4=None):
     :param arg1: and you may add explanation about different arguments
     :type arg1: don't write types here, use python3 type annotations instead
     :return: returns a monster value (type annotation might be enough)
+    """
 
 ```
 
@@ -460,29 +497,29 @@ def function(arg1, arg2, arg3=None, *, arg4=None):
 A_GLOBAL = True
 
 # Functions and methods have only lowercase letters and underscores.
-def a_function(a_argument):
+def a_function(a_argument: str) -> None:
     in_, _dot, _ext = a_argument.rpartition('.')
     # avoid keywords, but if needed, add underscore in the end of it (in_)
     # don' use just _ for unused variables, add also a name (_dot)
 
-def _non_public_function():
+def _non_public_function() -> None:
     pass
 
-def AClass:
+class AClass:
     # for constant values use uppercase like with globals
     LIKE_A_GLOBAL = True
     # for configurable variables and such, use lowercase
     just_an_class_variable = True
 
-    def a_method(self):
+    def a_method(self) -> None:
         pass
 
-    def _non_public_method(self):
+    def _non_public_method(self) -> object:
         # this method is not part of the public API
         # rarely, this can be used to namespace things
         # (see collections.namedtuple)
 
-    def __namespaced_method(self):
+    def __namespaced_method(self) -> object:
         # The real method name will be __AClass_namespaced_method
 ```
 
